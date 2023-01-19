@@ -1,0 +1,52 @@
+/* Navbar Start */
+.logo img {
+  height: 50px;
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  padding: 0 5%;
+  background-color: #ffda89;
+  z-index: 20;
+  position: fixed;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li #active {
+  position: relative;
+  margin: 30px 20px;
+  color: #252525;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+li #active::after {
+  content: "";
+  background: #dc0000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  border-radius: 8px;
+  transition: width 0.5s;
+}
+
+li #active:hover::after {
+  width: 100%;
+  background-color: #dc0000;
+}
+/* Navbar End */
