@@ -1,7 +1,7 @@
 /* Footer Start */
 footer {
   background-color: #ffda89;
-  height: 50vh;
+  height: 55vh;
   padding: 30px;
 }
 
@@ -31,7 +31,7 @@ footer {
 .content-contact-alamat img,
 .content-contact-telp img,
 .content-contact-email img{
-  height: 26px;
+  height: 25px;
 }
 
 .content-contact-alamat p,
