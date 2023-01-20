@@ -192,18 +192,21 @@ a {
 
 /* Popup Start */
 #popup-pembayaran-putra:target,
-#popup-pembayaran-putri:target
+#popup-pembayaran-putri:target,
+#popup-details:target
 {
   opacity: 1;
   visibility: visible;
 }
 #popup-pembayaran-putra:target .popup-pembayaran-putra,
-#popup-pembayaran-putri:target .popup-pembayaran-putri
+#popup-pembayaran-putri:target .popup-pembayaran-putri,
+#popup-details:target .popup-container
 {
   opacity: 1;
 }
 
-.popup-pembayaran {
+.popup-pembayaran
+{
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
@@ -233,8 +236,8 @@ a {
 }
 
 .popup__header {
+  padding-top: 20px;
   text-align: center;
-  padding-top: 30px;
   text-transform: uppercase;
   color: #090909;
   margin-bottom: 10px;
@@ -284,5 +287,98 @@ a {
   font-size: 1em;
 }
 
+/* Pop Lainnya */
+.popup-details
+{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 30;
+  
+  top: 0;
+  left: 0; 
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup-details .popup-container {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  opacity: 0;
+  transform: scale(1.1);
+  transition: all .5s;
+
+  width: 60%;
+  padding: 20px;
+  height: 465px;
+  border-radius: 20px;
+  background: #F9F9F9;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup-details .popup-container .list-ketentuan {
+  line-height: 30px;
+}
+
+.popup-header {
+  text-align: center;
+  text-transform: uppercase;
+  color: #090909;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.popup-details .list-ketentuan span {
+  font-weight: 500;
+}
+
+.btn-ok {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-ok button {
+  text-align: center;
+  width: 70px;
+  height: 42px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  background: #850001;
+  margin-top: 5px;
+  border: 2px #850001 solid;
+  color: #F9F9F9;
+}
+.btn-ok button:active {
+  transform: scale(1.1);
+  transition: ease-in-out .3s;
+}
+.btn-ok button:hover {
+  color: #850001;
+  border: 2px #850001 solid;
+  transition: ease-in-out .2s;
+  background: none;
+}
+
+.popup-close a:link,
+.popup-close a:visited {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: #252522;
+  font-size: 30px;
+  display: inline-block;
+  line-height: 1;
+  transition: all .2s;
+}
+.popup-close a:hover,
+.popup-close a:active {
+  color: #C9C9C9;
+}
 
 /* Popup End */
