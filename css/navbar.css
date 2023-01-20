@@ -28,6 +28,7 @@ nav ul li #active {
   position: relative;
   margin: 30px 20px;
   color: #252525;
+  /* border-radius: 10px; */
   font-size: 15px;
   font-weight: 400;
   display: inline-block;

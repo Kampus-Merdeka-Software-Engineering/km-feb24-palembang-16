@@ -189,3 +189,100 @@ a {
   padding-right: 10px;
 }
 /* Narahubung End */
+
+/* Popup Start */
+#popup-pembayaran-putra:target,
+#popup-pembayaran-putri:target
+{
+  opacity: 1;
+  visibility: visible;
+}
+#popup-pembayaran-putra:target .popup-pembayaran-putra,
+#popup-pembayaran-putri:target .popup-pembayaran-putri
+{
+  opacity: 1;
+}
+
+.popup-pembayaran {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup-pembayaran-putra,
+.popup-pembayaran-putri
+{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  opacity: 0;
+  transform: scale(1.1);
+  transition: all .5s;
+
+  width: 50%;
+  height: 230px;
+  border-radius: 20px;
+  background: #F9F9F9;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup__header {
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+  color: #090909;
+  margin-bottom: 10px;
+}
+.popup__header p {
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+}
+
+.norekening {
+  display: flex;
+  justify-content: center;
+  margin: 2px 20px;
+}
+.popup__content .norek {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  background: #e6e5e5;
+  padding: 5px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.popup__content {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.popup__content p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.btn-popup {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  padding: 12px 33px;
+  border-radius: 10px;
+  border: 1px #850001 solid;
+  margin-left: 270px;
+  background-color: #850001;
+}
+.btn-popup p {
+  color: #F9F9F9;
+  font-size: 1em;
+}
+
+
+/* Popup End */
