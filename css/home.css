@@ -9,6 +9,7 @@
 
 body {
   font-family: "Kanit", sans-serif;
+  width: 100%;
 }
 
 ul {
@@ -30,7 +31,7 @@ a {
   background-size: cover;
   background-position: center;
   /* transform: scaleX(-1); */
-  position: relative;
+  /* position: relative; */
 }
 
 .hero h3 {
