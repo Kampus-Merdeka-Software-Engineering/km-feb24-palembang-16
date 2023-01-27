@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <!-- footer.css -->
     <link rel="stylesheet" href="css/footer.css" />
+    <!-- slide-up.css -->
+    <link rel="stylesheet" href="css/slide-up.css" />
+
     <title>OSPEK 2023 | GHAZI</title>
     <link
       rel="shortcut icon"
@@ -27,6 +30,7 @@
       <!-- Menu -->
       <ul>
         <li><a href="#home" id="active">Home</a></li>
+        <li><a href="timeline.html" id="active">Jadwal</a></li>
         <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
         <li><a href="jurusan.html" id="active">Jurusan</a></li>
         <li>
@@ -82,9 +86,9 @@
       <div class="timeline-border">
         <div class="timeline-container left-timeline">
           <img src="assets/circle.png" alt="" />
-          <a href="">
+          <a href="timeline.html">
             <div class="text-box">
-              <h3>Alur Pendaftaran</h3>
+              <h3>Jadwal Kegiatan</h3>
               <div class="desc-timeline">
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -239,5 +243,31 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <!-- Scroll On Top Start -->
+    <button id="scroll-top-button" onclick="scrollToTop()">
+      <img src="assets/slide-up.png" alt="up" />
+    </button>
+    <!-- Scroll On Top End -->
+
+    <!-- Script Scroll Top Start -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <script>
+      const scrollToTopButton = document.getElementById("scroll-top-button");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 100) {
+          scrollToTopButton.style.display = "block";
+        } else {
+          scrollToTopButton.style.display = "none";
+        }
+      });
+
+      scrollToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+    <!-- Script Scroll Top End -->
   </body>
 </html>
