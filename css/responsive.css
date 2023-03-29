@@ -7,7 +7,6 @@
 
   li #active::after,
   li #active:hover::after {
-    /* display: none; */
     background: none;
   }
 
@@ -316,16 +315,42 @@
     margin: 20px 65px;
   }
   .card-narahubung-wa:hover,
-  .text-box:hover  {
+  .text-box:hover {
     transform: none;
   }
   .card-narahubung-wa {
     margin-top: 20px;
     width: 260px;
-  height: 100px;
-  font-size: .8em;
-  padding: 10px 20px;
-
+    height: 100px;
+    font-size: 0.8em;
+    padding: 10px 20px;
   }
-  
+
+  .footer-container {
+    display: block;
+  }
+
+  .content-contact-alamat,
+  .content-contact-telp,
+  .content-contact-email {
+    margin-right: 0;
+  }
+
+  .content-contact-alamat p,
+  .content-contact-telp p,
+  .content-contact-email p {
+    margin-right: 0;
+  }
+  .footer-center {
+    margin-top: 36px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .social-media img {
+    height: 20px;
+  }
+  .footer-center p {
+    font-weight: 400;
+    font-size: 1em;
+  }
 }
