@@ -9,7 +9,7 @@
 
 body {
   font-family: "Kanit", sans-serif;
-  width: 100%;
+  /* width: 100%; */
 }
 
 ul {
@@ -97,7 +97,7 @@ button:active {
 button:hover {
   color: #850001;
   background-color: #ffda89;
-  transition: ease-in-out .5s;
+  transition: ease-in-out .3s;
 }
 /* Hero End */
 
@@ -191,7 +191,7 @@ button:hover {
   content: '';
   position: absolute;
   width: 6px;
-  height: 875px;
+  height: 975px;
   background: #850001;
   opacity: 50%;
   top: 0;
@@ -201,4 +201,4 @@ button:hover {
   border-radius: 8px;
 }
 /* Timeline End */
-
+  

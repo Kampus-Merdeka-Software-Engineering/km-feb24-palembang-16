@@ -33,7 +33,7 @@ a {
   font-size: 1.3em;
 }
 
-.timeline {
+.timeline-agenda {
   max-width: 830px;
   margin: 30px auto;
   display: flex;
@@ -41,7 +41,7 @@ a {
   position: relative;
   padding: 15px 0;
 }
-.timeline::after {
+.timeline-agenda::after {
   content: '';
   position: absolute;
   width: 3px;
@@ -119,7 +119,7 @@ a {
   right: -45px;
 }
 .timeline-content:nth-child(even) .tag {
-  left: 18px;
+  left: 18px; 
 }
 .timeline-content:nth-child(even):hover {
   transform: scale(1.01);
@@ -176,28 +176,3 @@ a {
   /* padding: 0 10px; */
 }
 /* Jadwal End */
-
-/* Responsive Start */
-
-@media screen and (max-width: 600px) {
-  .jadwal .jdl-timeline {
-    padding-top: 90px;
-    text-align: center;
-    font-size: 1em;
-  }
-
-  .timeline {
-    gap: 15px;
-    padding: 10px;
-  }
-  .timeline::after {
-    display: none;
-  }
-  .timeline-content {
-    width: 100%;
-  }
-  .timeline-content::before {
-    display: none;
-  }
-}
-/* Responsive End */

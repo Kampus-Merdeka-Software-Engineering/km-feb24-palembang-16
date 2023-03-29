@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <!-- footer.css -->
     <link rel="stylesheet" href="css/footer.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
     <title>OSPEK 2023</title>
     <link
       rel="shortcut icon"
@@ -25,17 +28,23 @@
         ><img src="assets/logo-tulisan.png" alt="logoku" />
       </a>
       <!-- Menu -->
-      <ul>
-        <li><a href="index.html" id="active">Home</a></li>
-        <li><a href="timeline.html" id="active">Jadwal</a></li>
-        <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
-        <li><a href="jurusan.html" id="active">Jurusan</a></li>
-        <!-- <li>
-          <a href="kontak-kami.html" class="kontak-kami" id="active"
-            >Kontak Kami</a
-          >
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html" id="active">Home</a></li>
+          <li><a href="timeline.html" id="active">Jadwal</a></li>
+          <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
+          <li><a href="jurusan.html" id="active">Jurusan</a></li>
+          <!-- <li>
+          <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
         </li> -->
-      </ul>
+        </ul>
+      </div>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
     <!-- Navbar End -->
 
@@ -116,7 +125,7 @@
           </div>
           <div class="desc-du">
             <p>
-              Untuk informasi biaya daftar ulang mahasiswa tahun dajaran
+              Untuk informasi biaya daftar ulang mahasiswa baru Tahun Ajaran
               2023-2024 / 1443-1444, silahkan klik tombol dibawah ini
             </p>
           </div>
@@ -329,5 +338,7 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <script src="js/navbar.js"></script>
   </body>
 </html>

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/footer.css" />
     <!-- slide-up.css -->
     <link rel="stylesheet" href="css/slide-up.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
 
     <title>OSPEK 2023 | GHAZI</title>
     <link
@@ -20,7 +22,17 @@
       type="image/x-icon"
     />
 
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="af85fc02-072c-4180-9365-b08d59e17341";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "af85fc02-072c-4180-9365-b08d59e17341";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
   </head>
   <body>
     <!-- Navbar Start -->
@@ -30,15 +42,23 @@
         ><img src="assets/logo-tulisan.png" alt="logoku" />
       </a>
       <!-- Menu -->
-      <ul>
-        <li><a href="#home" id="active">Home</a></li>
-        <li><a href="timeline.html" id="active">Jadwal</a></li>
-        <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
-        <li><a href="jurusan.html" id="active">Jurusan</a></li>
-        <!-- <li>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#home" id="active">Home</a></li>
+          <li><a href="timeline.html" id="active">Jadwal</a></li>
+          <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
+          <li><a href="jurusan.html" id="active">Jurusan</a></li>
+          <!-- <li>
           <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
         </li> -->
-      </ul>
+        </ul>
+      </div>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
     <!-- Navbar End -->
 
@@ -93,9 +113,10 @@
               <h3>Jadwal Kegiatan</h3>
               <div class="desc-timeline">
                 <p>
-                  Biar ga kelewatan acara - acara penting ketika ospek, yuk pantau terus jadwal kegiatan ospek.
-                  Jadwal kegiatan ini akan selalu kami update.
-                  Jangan sampai terlewat dan terlambat yaa.... <br/>
+                  Biar ga kelewatan acara - acara penting ketika ospek, yuk
+                  pantau terus jadwal kegiatan ospek. Jadwal kegiatan ini akan
+                  selalu kami update. Jangan sampai terlewat dan terlambat
+                  yaa.... <br />
                   Keep Spirit teman - teman <span>&#x1F4AA;</span>
                 </p>
               </div>
@@ -113,7 +134,9 @@
               <h3>Berkas yang Harus Dibawa</h3>
               <div class="desc-timeline">
                 <p>
-                  Apa saja sih berkas - berkas yang harus Antum bawa ke kampus untuk melakukan daftar ulang? Yuk cek kelengkapan berkas Antum, jangan sampai ada yang tertinggal yaa... <br/>
+                  Apa saja sih berkas - berkas yang harus Antum bawa ke kampus
+                  untuk melakukan daftar ulang? Yuk cek kelengkapan berkas
+                  Antum, jangan sampai ada yang tertinggal yaa... <br />
                   Harus teliti teman - teman <span>&#x1F9D0;</span>
                 </p>
               </div>
@@ -131,7 +154,10 @@
               <h3>Pembayaran Daftar Ulang</h3>
               <div class="desc-timeline">
                 <p>
-                  Kami ingin memastikan bahwa proses daftar ulang Antum berjalan dengan mudah dan lancar. Mohon perhatikan biaya yang tertera dengan seksama dan jangan ragu untuk menghubungi kami jika Antum memiliki pertanyaan atau butuh bantuan.
+                  Kami ingin memastikan bahwa proses daftar ulang Antum berjalan
+                  dengan mudah dan lancar. Mohon perhatikan biaya yang tertera
+                  dengan seksama dan jangan ragu untuk menghubungi kami jika
+                  Antum memiliki pertanyaan atau butuh bantuan.
                 </p>
               </div>
               <div class="lihat-detail">
@@ -199,9 +225,7 @@
             <p>Social Media</p>
             <div class="social-media">
               <div class="ig">
-                <a
-                  href="https://www.instagram.com/ospek.2023/"
-                  target="_blank"
+                <a href="https://www.instagram.com/ospek.2023/" target="_blank"
                   ><img src="assets/ig.png" alt=""
                 /></a>
               </div>
@@ -245,13 +269,15 @@
     <!-- Footer End -->
 
     <!-- Scroll On Top Start -->
-    <button id="scroll-top-button" onclick="scrollToTop()">
+    <!-- <button id="scroll-top-button" onclick="scrollToTop()">
       <img src="assets/slide-up.png" alt="up" />
-    </button>
+    </button> -->
     <!-- Scroll On Top End -->
 
     <!-- Script Scroll Top Start -->
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <script src="js/navbar.js"></script>
 
     <script>
       const scrollToTopButton = document.getElementById("scroll-top-button");

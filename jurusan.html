@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/footer.css" />
     <!-- slide-up.css -->
     <link rel="stylesheet" href="css/slide-up.css" />
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+
     <title>OSPEK 2023</title>
     <link
       rel="shortcut icon"
@@ -27,17 +30,23 @@
         ><img src="assets/logo-tulisan.png" alt="logoku" />
       </a>
       <!-- Menu -->
-      <ul>
-        <li><a href="index.html" id="active">Home</a></li>
-        <li><a href="timeline.html" id="active">Jadwal</a></li>
-        <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
-        <li><a href="#jurusan" id="active">Jurusan</a></li>
-        <!-- <li>
-          <a href="kontak-kami.html" class="kontak-kami" id="active"
-            >Kontak Kami</a
-          >
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html#home" id="active">Home</a></li>
+          <li><a href="timeline.html" id="active">Jadwal</a></li>
+          <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
+          <li><a href="jurusan.html" id="active">Jurusan</a></li>
+          <!-- <li>
+          <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
         </li> -->
-      </ul>
+        </ul>
+      </div>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
     </nav>
     <!-- Navbar End -->
 
@@ -203,7 +212,10 @@
                 <span></span>
               </div>
               <div class="prodi atas">
-                <a href="https://informatika.unida.gontor.ac.id/" target="_blank">
+                <a
+                  href="https://informatika.unida.gontor.ac.id/"
+                  target="_blank"
+                >
                   <img src="assets/saintek.png" alt="" />
                   <p>Teknik Informatika</p>
                 </a>
@@ -302,9 +314,7 @@
             <p>Social Media</p>
             <div class="social-media">
               <div class="ig">
-                <a
-                  href="https://www.instagram.com/ospek.2023/"
-                  target="_blank"
+                <a href="https://www.instagram.com/ospek.2023/" target="_blank"
                   ><img src="assets/ig.png" alt=""
                 /></a>
               </div>
@@ -372,5 +382,7 @@
       });
     </script>
     <!-- Script Scroll Top End -->
+
+    <script src="js/navbar.js"></script>
   </body>
 </html>
