@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Navbar */
   nav {
     max-width: 100%;
@@ -326,6 +326,41 @@
     padding: 10px 20px;
   }
 
+  /* Popup Pembayaran */
+  .popup-pembayaran-putra,
+.popup-pembayaran-putri
+{
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  transform: none;
+  transition: none;
+  width: 90%;
+  height: 250px;
+  padding: 20px;
+}
+.popup__header p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Popup lainnya */
+.popup-details .popup-container {
+  top: 10%;
+  left: 5%;
+  transform: none;
+  transition: none;
+
+  width: 90%;
+  height: 760px;
+}
+.popup-header {
+  color: #090909;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+  /* Footer */
   .footer-container {
     display: block;
   }
@@ -342,15 +377,18 @@
     margin-right: 0;
   }
   .footer-center {
-    margin-top: 36px;
+    margin-top: 40px;
     text-align: center;
     margin-left: -35px;
   }
   .social-media img {
-    height: 20px;
+    height: 30px;
   }
   .footer-center p {
     font-weight: 400;
     font-size: 1em;
+  }
+  .footer-center p {
+    display: none;
   }
 }
