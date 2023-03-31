@@ -2,4 +2,4 @@
 
 # This is a link for Access Website
 
-=> https://ardenaafif.github.io/ospek-2023/
+=> https://ardenaafif.github.io/ospek-ghazi/
