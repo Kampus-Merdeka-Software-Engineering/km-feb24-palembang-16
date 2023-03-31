@@ -133,19 +133,19 @@ a {
   font-size: 14px;
 }
 
-.tag .tag-selesai {
+.tag-selesai {
   background-color: #850001;
   color: #f9f9f9;
   padding: 6px 10px;
   border-radius: 7px;
 }
-.tag .tag-progress {
+.tag-progress {
   background-color: rgb(105, 215, 72);
   color: #f9f9f9;
   padding: 6px 10px;
   border-radius: 7px;
 }
-.tag .tag-soon {
+.tag-soon {
   background-color: #385ca3;
   color: #f9f9f9;
   padding: 6px 10px;
