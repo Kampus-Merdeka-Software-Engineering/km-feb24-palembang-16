@@ -20,9 +20,13 @@ a {
 }
 
 .jurusan {
-  width: 100%;
-  height: 210vh;
+  height: auto;
+}
+.jurusan-container {
+  padding-bottom: 30px;
   background: #FFF6C3;
+  width: 100%;
+
 }
 
 .jdl-jurusan {

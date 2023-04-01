@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 416px) {
   /* Navbar */
   nav {
     max-width: 100%;
@@ -8,6 +8,10 @@
   li #active::after,
   li #active:hover::after {
     background: none;
+  }
+  nav ul li #active {
+    position: relative;
+    margin: 10px 20px;
   }
 
   .hamburger {
@@ -139,7 +143,7 @@
 
   /* Timeline jadwal */
   .jadwal {
-    height: 500vh;
+    height: auto;
   }
 
   .jadwal .jdl-timeline {
@@ -149,7 +153,7 @@
 
   .timeline-agenda {
     gap: 15px;
-    padding: 10px;
+    padding: 30px 10px;
   }
   .timeline-agenda::after {
     display: none;
@@ -194,10 +198,19 @@
 
   /* Jurusan */
   .jurusan {
-    height: 250vh;
+    height: auto;
   }
   .jdl-jurusan h3 {
     font-size: 1em;
+  }
+
+  .jurusan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff6c3;
   }
 
   .card-jurusan .row-1 {
@@ -208,13 +221,13 @@
   }
 
   .card-jurusan .tengah {
-    margin: 20px 70px;
+    margin: 20px auto;
     height: 240px;
   }
 
   .card-1,
   .card-3 {
-    margin: 0 70px;
+    margin: 0 auto;
     height: 240px;
   }
 
@@ -327,38 +340,43 @@
   }
 
   /* Popup Pembayaran */
+  .popup-pembayaran {
+    height: 102vh;
+  }
   .popup-pembayaran-putra,
-.popup-pembayaran-putri
-{
-  position: absolute;
-  top: 40%;
-  left: 5%;
-  transform: none;
-  transition: none;
-  width: 90%;
-  height: 250px;
-  padding: 20px;
-}
-.popup__header p {
-  font-size: 1em;
-  font-weight: bold;
-}
+  .popup-pembayaran-putri {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: none;
+    transition: none;
+    width: 90%;
+    height: 250px;
+    padding: 20px;
+  }
+  .popup__header p {
+    font-size: 1em;
+    font-weight: bold;
+  }
 
-/* Popup lainnya */
-.popup-details .popup-container {
-  top: 10%;
-  left: 5%;
-  transform: none;
-  transition: none;
+  /* Popup lainnya */
+  .popup-details {
+    height: 112vh;
+  }
+  .popup-details .popup-container {
+    top: 4%;
+    left: 5%;
+    transform: none;
+    transition: none;
 
-  width: 90%;
-  height: 760px;
-}
-.popup-header {
-  color: #090909;
-  font-size: 1em;
-  font-weight: bold;
-}
+    width: 90%;
+    height: 780px;
+  }
+  .popup-header {
+    color: #090909;
+    font-size: 1em;
+    font-weight: bold;
+  }
 
   /* Footer */
   .footer-container {
@@ -390,5 +408,135 @@
   }
   .footer-center p {
     display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /* nav */
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffda89;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  nav ul li #active {
+    position: relative;
+    margin: 10px 15px;
+  }
+
+  /* Hero - home */
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background-color: #850001;
+  }
+  .hero h3 {
+    padding-top: 5em;
+    padding-left: 2em;
+    /* transform: scaleX(-1); */
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    text-transform: uppercase;
+    /* padding: 2em; */
+    background-image: linear-gradient(
+      to right,
+      /* rgba(133,0,1,2), */ rgba(133, 0, 1, 1),
+      rgba(133, 0, 1, 0.9),
+      rgba(133, 0, 1, 0.2),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  .logo-unida-hero {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 2.3em;
+  }
+  .logo-unida-hero img {
+    height: 40px;
+  }
+  .btn-seemore {
+    position: absolute;
+    padding-top: 270px;
+  }
+
+  .btn-seemore button {
+    margin-left: 4em;
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+  button:hover {
+    color: #ffda89;
+    background: none;
+    transition: none;
+  }
+
+  /* About - home */
+  .about-container {
+    width: 90%;
+    height: 230px;
+    margin: -14% auto 0 auto;
+    padding: 20px 30px;
+  }
+  .about-container .arti-ospek {
+    font-size: 11px;
+  }
+  .about-container .tujuan-ospek {
+    font-size: 11px;
+  }
+
+  /* Timeline - home*/
+  .timeline {
+    height: auto;
+  }
+
+  .jdl-timeline {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .text-box {
+    padding: 20px 20px;
+    transition: none;
+    font-size: 14px;
+  }
+
+  .timeline-container {
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+  .right-timeline {
+    left: 0;
+  }
+
+  .timeline-border::after,
+  .timeline-container img {
+    display: none;
+  }
+
+  /* jurusan */
+  .jurusan-container {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff6c3;
   }
 }
