@@ -1,4 +1,12 @@
 @media screen and (max-width: 416px) {
+  a:active, a:focus, .hamburger, #scroll-top-button {
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* a:active {
+    outline: none;
+    box-shadow: none;
+  } */
   /* Navbar */
   nav {
     max-width: 100%;
