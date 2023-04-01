@@ -248,6 +248,12 @@
   }
 
   /* Pembayaran DU */
+.pembayaran-du {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
   .pembayaran-du .jdl-pembayaran-du {
     text-align: center;
     font-size: 1em;
@@ -260,7 +266,7 @@
   }
   .card-pembayaran-du {
     display: block;
-    margin-left: 50px;
+    /* margin-left: 50px; */
   }
 
   /* Card Pendaftaran */
@@ -321,7 +327,8 @@
 
   /* Card Narahubung */
   .narahubung {
-    height: 50vh;
+    height: auto;
+    width: 100%;
   }
   .card-narahubung {
     display: block;
