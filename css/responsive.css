@@ -1,12 +1,11 @@
-@media screen and (max-width: 416px) {
-  a:active, a:focus, .hamburger, #scroll-top-button {
+@media screen and (max-width: 456px) {
+  a:active,
+  a:focus,
+  .hamburger,
+  #scroll-top-button {
     box-shadow: none;
     -webkit-tap-highlight-color: transparent;
   }
-  /* a:active {
-    outline: none;
-    box-shadow: none;
-  } */
   /* Navbar */
   nav {
     max-width: 100%;
@@ -17,7 +16,191 @@
   li #active:hover::after {
     background: none;
   }
-  nav ul li #active {
+  i nav ul li #active {
+    position: relative;
+    margin: 10px 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffda89;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .nav-menu li {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+
+  /* Hero - home */
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background-color: #850001;
+  }
+  .hero h3 {
+    padding-top: 5.6em;
+    padding-left: 2em;
+    /* transform: scaleX(-1); */
+    font-size: 1.8rem;
+    color: aliceblue;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    text-transform: uppercase;
+    /* padding: 2em; */
+    background-image: linear-gradient(
+      to right,
+      /* rgba(133,0,1,2), */ rgba(133, 0, 1, 1),
+      rgba(133, 0, 1, 0.9),
+      rgba(133, 0, 1, 0.2),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  .logo-unida-hero {
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 3em;
+  }
+  .logo-unida-hero img {
+    height: 50px;
+  }
+  .btn-seemore {
+    position: absolute;
+    padding-top: 350px;
+  }
+
+  .btn-seemore button {
+    margin-left: 4em;
+  }
+  button:hover {
+    color: #ffda89;
+    background: none;
+    transition: none;
+  }
+
+  /* About - home */
+  .about-container {
+    width: 90%;
+    height: 230px;
+    margin: -14% auto 0 auto;
+    padding: 20px 30px;
+  }
+  .about-container .arti-ospek {
+    font-size: 12px;
+  }
+  .about-container .tujuan-ospek {
+    font-size: 12px;
+  }
+
+  /* Timeline - home*/
+  .timeline {
+    height: auto;
+  }
+
+  .jdl-timeline {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .text-box {
+    padding: 20px 20px;
+    transition: none;
+    font-size: 14px;
+  }
+
+  .timeline-container {
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+  .right-timeline {
+    left: 0;
+  }
+
+  .timeline-border::after,
+  .timeline-container img {
+    display: none;
+  }
+
+  /* Footer */
+  .footer-container {
+    display: block;
+  }
+
+  .content-contact-alamat,
+  .content-contact-telp,
+  .content-contact-email {
+    margin-right: 0;
+  }
+
+  .content-contact-alamat p,
+  .content-contact-telp p,
+  .content-contact-email p {
+    margin-right: 0;
+  }
+  .footer-center {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .social-media img {
+    height: 30px;
+  }
+  .footer-center p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .footer-center p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  a:active,
+  a:focus,
+  .hamburger,
+  #scroll-top-button {
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Navbar */
+  nav {
+    max-width: 100%;
+    display: flex;
+  }
+
+  li #active::after,
+  li #active:hover::after {
+    background: none;
+  }
+  i nav ul li #active {
     position: relative;
     margin: 10px 20px;
   }
@@ -256,12 +439,12 @@
   }
 
   /* Pembayaran DU */
-.pembayaran-du {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  .pembayaran-du {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .pembayaran-du .jdl-pembayaran-du {
     text-align: center;
     font-size: 1em;

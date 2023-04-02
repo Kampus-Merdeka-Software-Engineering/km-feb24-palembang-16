@@ -28,6 +28,8 @@ nav {
 
 .nav-menu ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li #active {
