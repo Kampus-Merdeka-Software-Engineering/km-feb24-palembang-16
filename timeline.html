@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VW65KKR9NR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VW65KKR9NR");
+    </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,16 +43,16 @@
     <!-- Navbar Start -->
     <nav>
       <!-- Logo -->
-      <a href="index.html" class="logo"
+      <a href="./" class="logo"
         ><img src="assets/logo-tulisan.png" alt="logoku" />
       </a>
       <!-- Menu -->
       <div class="nav-menu">
         <ul>
-          <li><a href="index.html#home" id="active">Home</a></li>
-          <li><a href="timeline.html" id="active">Jadwal</a></li>
-          <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
-          <li><a href="jurusan.html" id="active">Jurusan</a></li>
+          <li><a href="./" id="active">Home</a></li>
+          <li><a href="./timeline" id="active">Jadwal</a></li>
+          <li><a href="./pembayaran-du" id="active">Pembayaran DU</a></li>
+          <li><a href="./jurusan" id="active">Jurusan</a></li>
           <!-- <li>
           <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
         </li> -->
@@ -57,10 +72,11 @@
       <div class="jdl-timeline" id="timeline">
         <h3>Jadwal Kegiatan</h3>
         <h3>OSPEK 2023</h3>
-        <p>Yuk pantau terus jadwal kegiatan OSPEK, jangan sampai kelewat ya...</p>
+        <p>
+          Yuk pantau terus jadwal kegiatan OSPEK, jangan sampai kelewat ya...
+        </p>
       </div>
       <div class="timeline-agenda">
-
         <div class="timeline-content test">
           <div class="tag">
             <!-- <span class="tag-selesai">SELESAI</span> -->
@@ -72,9 +88,19 @@
             <span class="date-m">3 - 21 April 2023</span> <br />
             <span class="date-h">12 Ramadhan - 30 Ramadhan 1444</span>
           </div>
-          <p class="desc">Tes TOEFL & TOAFL, Minat Bakat dan Kepribadian (Online)</p>
-          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScyizeVY7hDVJc0AslzH3sk1i_P_XTlS7INXw1i9oaSrxW55A/viewform">- Link Tes Kepribadian</a>
-          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScyizeVY7hDVJc0AslzH3sk1i_P_XTlS7INXw1i9oaSrxW55A/viewform">- Link Tes Minat Bakat</a>
+          <p class="desc">
+            Tes TOEFL & TOAFL, Minat Bakat dan Kepribadian (Online)
+          </p>
+          <a
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScyizeVY7hDVJc0AslzH3sk1i_P_XTlS7INXw1i9oaSrxW55A/viewform"
+            >- Link Tes Kepribadian</a
+          >
+          <a
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScyizeVY7hDVJc0AslzH3sk1i_P_XTlS7INXw1i9oaSrxW55A/viewform"
+            >- Link Tes Minat Bakat</a
+          >
         </div>
 
         <div class="timeline-content">
@@ -88,7 +114,7 @@
             <span class="date-m">6 - 21 April 2023</span> <br />
             <span class="date-h">15 Ramadhan - 30 Ramadhan 1444</span>
           </div>
-          <p class="desc">Pendaftaran Mahasiswa Baru  (by Admission System)</p>
+          <p class="desc">Pendaftaran Mahasiswa Baru (by Admission System)</p>
         </div>
 
         <div class="timeline-content">
@@ -132,7 +158,9 @@
             <span class="date-m">28 - 30 April 2023</span><br />
             <span class="date-h">7 - 9 Syawwal 1444</span>
           </div>
-          <p class="desc">Batas Akhir Kedatangan Mahasiswa Baru Reguler Kampus Siman</p>
+          <p class="desc">
+            Batas Akhir Kedatangan Mahasiswa Baru Reguler Kampus Siman
+          </p>
         </div>
 
         <div class="timeline-content">
@@ -146,21 +174,9 @@
             <span class="date-m">30 April 2023</span><br />
             <span class="date-h">9 Syawwal 1444</span>
           </div>
-          <p class="desc">Verifikasi Data Mahasiswi Guru dan Reguler Kampus Mantingan</p>
-        </div>
-
-        <div class="timeline-content">
-          <div class="tag">
-            <!-- <span class="tag-selesai">SELESAI</span> -->
-            <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-            <span class="tag-soon">AKAN DATANG</span>
-          </div>
-
-          <div class="date">
-            <span class="date-m">1 Mei 2023</span><br />
-            <span class="date-h">10 Syawwal 1444</span>
-          </div>
-          <p class="desc">Verifikasi Data Mahasiswa Guru dan Reguler Kampus Siman</p>
+          <p class="desc">
+            Verifikasi Data Mahasiswi Guru dan Reguler Kampus Mantingan
+          </p>
         </div>
 
         <div class="timeline-content">
@@ -175,7 +191,24 @@
             <span class="date-h">10 Syawwal 1444</span>
           </div>
           <p class="desc">
-            Upacara Pembukaan Tahun Ajaran Baru & Absensi Disiplin Kampus Mantingan
+            Verifikasi Data Mahasiswa Guru dan Reguler Kampus Siman
+          </p>
+        </div>
+
+        <div class="timeline-content">
+          <div class="tag">
+            <!-- <span class="tag-selesai">SELESAI</span> -->
+            <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+            <span class="tag-soon">AKAN DATANG</span>
+          </div>
+
+          <div class="date">
+            <span class="date-m">1 Mei 2023</span><br />
+            <span class="date-h">10 Syawwal 1444</span>
+          </div>
+          <p class="desc">
+            Upacara Pembukaan Tahun Ajaran Baru & Absensi Disiplin Kampus
+            Mantingan
           </p>
         </div>
 
@@ -206,7 +239,9 @@
             <span class="date-m">1 - 3 Mei 2023</span><br />
             <span class="date-h">10 - 12 Syawwal 1444</span>
           </div>
-          <p class="desc">Briefing Kegiatan OSPEK secara Umum (Masa Pra Ospek)</p>
+          <p class="desc">
+            Briefing Kegiatan OSPEK secara Umum (Masa Pra Ospek)
+          </p>
         </div>
 
         <div class="timeline-content">
@@ -234,7 +269,9 @@
             <span class="date-m">3 Mei 2023</span><br />
             <span class="date-h">12 Syawwal 1444</span>
           </div>
-          <p class="desc">Interview Prodi Mahasiswi Guru, Reguler dan Mahasiswa Kediri</p>
+          <p class="desc">
+            Interview Prodi Mahasiswi Guru, Reguler dan Mahasiswa Kediri
+          </p>
         </div>
 
         <div class="timeline-content">
@@ -529,9 +566,11 @@
             <span class="date-h">19 Syawwal 1444</span><br />
             <span class="time">20.00 - 22.30</span>
           </div>
-          <p class="desc">Malam Keakraban dan <br> Penutupan OSPEK 2023</p>
+          <p class="desc">
+            Malam Keakraban dan <br />
+            Penutupan OSPEK 2023
+          </p>
         </div>
-
       </div>
     </div>
     <!-- Timeline End -->

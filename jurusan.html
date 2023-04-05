@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VW65KKR9NR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VW65KKR9NR");
+    </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,16 +41,16 @@
     <!-- Navbar Start -->
     <nav>
       <!-- Logo -->
-      <a href="index.html" class="logo"
+      <a href="./index" class="logo"
         ><img src="assets/logo-tulisan.png" alt="logoku" />
       </a>
       <!-- Menu -->
       <div class="nav-menu">
         <ul>
-          <li><a href="index.html#home" id="active">Home</a></li>
-          <li><a href="timeline.html" id="active">Jadwal</a></li>
-          <li><a href="pembayaran-du.html" id="active">Pembayaran DU</a></li>
-          <li><a href="jurusan.html" id="active">Jurusan</a></li>
+          <li><a href="./" id="active">Home</a></li>
+          <li><a href="./timeline" id="active">Jadwal</a></li>
+          <li><a href="./pembayaran-du" id="active">Pembayaran DU</a></li>
+          <li><a href="./jurusan" id="active">Jurusan</a></li>
           <!-- <li>
           <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
         </li> -->
@@ -341,7 +356,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </footer>
