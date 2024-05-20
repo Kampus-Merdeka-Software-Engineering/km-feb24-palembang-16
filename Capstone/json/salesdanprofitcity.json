@@ -1,0 +1,401 @@
+[{
+  "City": "Los Angeles",
+  "total_sales": "52667.829999999951",
+  "total_profit": "8809.9400000000041"
+}, {
+  "City": "New York City",
+  "total_sales": "51238.80000000001",
+  "total_profit": "11068.669999999989"
+}, {
+  "City": "Seattle",
+  "total_sales": "28521.879999999968",
+  "total_profit": "5407.1400000000021"
+}, {
+  "City": "San Francisco",
+  "total_sales": "27527.169999999984",
+  "total_profit": "5813.0400000000054"
+}, {
+  "City": "Philadelphia",
+  "total_sales": "24364.859999999986",
+  "total_profit": "644.24999999999977"
+}, {
+  "City": "Houston",
+  "total_sales": "17655.929999999993",
+  "total_profit": "1034.4399999999998"
+}, {
+  "City": "Chicago",
+  "total_sales": "12969.799999999992",
+  "total_profit": "149.30999999999986"
+}, {
+  "City": "San Diego",
+  "total_sales": "12421.619999999995",
+  "total_profit": "2177.7599999999998"
+}, {
+  "City": "Columbus",
+  "total_sales": "10903.449999999997",
+  "total_profit": "1719.4800000000014"
+}, {
+  "City": "Dallas",
+  "total_sales": "9547.2300000000014",
+  "total_profit": "322.74999999999989"
+}, {
+  "City": "Springfield",
+  "total_sales": "9063.19",
+  "total_profit": "1672.5700000000011"
+}, {
+  "City": "Detroit",
+  "total_sales": "8205.64",
+  "total_profit": "1951.19"
+}, {
+  "City": "Columbia",
+  "total_sales": "5620.2999999999993",
+  "total_profit": "1085.85"
+}, {
+  "City": "Newark",
+  "total_sales": "5414.7099999999973",
+  "total_profit": "1178.9199999999998"
+}, {
+  "City": "Jacksonville",
+  "total_sales": "5408.1399999999994",
+  "total_profit": "532.21"
+}, {
+  "City": "Richmond",
+  "total_sales": "5091.25",
+  "total_profit": "1396.1499999999999"
+}, {
+  "City": "San Antonio",
+  "total_sales": "4314.55",
+  "total_profit": "73.090000000000032"
+}, {
+  "City": "Jackson",
+  "total_sales": "3666.8300000000008",
+  "total_profit": "1039.8000000000002"
+}, {
+  "City": "Long Beach",
+  "total_sales": "3614.4400000000005",
+  "total_profit": "691.99999999999977"
+}, {
+  "City": "Phoenix",
+  "total_sales": "3575.0200000000004",
+  "total_profit": "194.32000000000002"
+}, {
+  "City": "Aurora",
+  "total_sales": "3545.29",
+  "total_profit": "172.81000000000003"
+}, {
+  "City": "San Jose",
+  "total_sales": "3383.7299999999996",
+  "total_profit": "641.37"
+}, {
+  "City": "Denver",
+  "total_sales": "3204.2900000000004",
+  "total_profit": "329.71000000000004"
+}, {
+  "City": "Louisville",
+  "total_sales": "3149.5399999999991",
+  "total_profit": "703.26999999999975"
+}, {
+  "City": "Concord",
+  "total_sales": "2961.5600000000004",
+  "total_profit": "447.84999999999997"
+}, {
+  "City": "Miami",
+  "total_sales": "2961.55",
+  "total_profit": "172.02"
+}, {
+  "City": "Pasadena",
+  "total_sales": "2927.72",
+  "total_profit": "286.52000000000004"
+}, {
+  "City": "Charlotte",
+  "total_sales": "2904.0400000000009",
+  "total_profit": "149.99"
+}, {
+  "City": "Tucson",
+  "total_sales": "2888.44",
+  "total_profit": "118.94999999999999"
+}, {
+  "City": "Rochester",
+  "total_sales": "2553.7100000000009",
+  "total_profit": "573.08"
+}, {
+  "City": "Lakewood",
+  "total_sales": "2518.3200000000006",
+  "total_profit": "417.02"
+}, {
+  "City": "Baltimore",
+  "total_sales": "2511.4299999999994",
+  "total_profit": "627.28"
+}, {
+  "City": "Portland",
+  "total_sales": "2508.9200000000005",
+  "total_profit": "329.35"
+}, {
+  "City": "Arlington",
+  "total_sales": "2457.52",
+  "total_profit": "444.82000000000016"
+}, {
+  "City": "Tampa",
+  "total_sales": "2332.6800000000003",
+  "total_profit": "45.780000000000008"
+}, {
+  "City": "Milwaukee",
+  "total_sales": "2184.37",
+  "total_profit": "589.76999999999987"
+}, {
+  "City": "Henderson",
+  "total_sales": "2181.43",
+  "total_profit": "664.84000000000015"
+}, {
+  "City": "Salem",
+  "total_sales": "2113.0600000000004",
+  "total_profit": "248.1"
+}, {
+  "City": "Anaheim",
+  "total_sales": "2097.91",
+  "total_profit": "403.1"
+}, {
+  "City": "Cleveland",
+  "total_sales": "2020.23",
+  "total_profit": "-56.379999999999995"
+}, {
+  "City": "Franklin",
+  "total_sales": "1918.0500000000002",
+  "total_profit": "412.15000000000003"
+}, {
+  "City": "Lawrence",
+  "total_sales": "1909.5000000000002",
+  "total_profit": "537.81000000000006"
+}, {
+  "City": "Lancaster",
+  "total_sales": "1891.1000000000001",
+  "total_profit": "103.43999999999997"
+}, {
+  "City": "Fresno",
+  "total_sales": "1848.83",
+  "total_profit": "370.14"
+}, {
+  "City": "Lafayette",
+  "total_sales": "1828.8100000000004",
+  "total_profit": "347.87999999999994"
+}, {
+  "City": "Indianapolis",
+  "total_sales": "1792.2800000000004",
+  "total_profit": "374.63"
+}, {
+  "City": "Austin",
+  "total_sales": "1786.7499999999998",
+  "total_profit": "43.41"
+}, {
+  "City": "Oakland",
+  "total_sales": "1730.21",
+  "total_profit": "332.66"
+}, {
+  "City": "Fayetteville",
+  "total_sales": "1687.2100000000003",
+  "total_profit": "276.15999999999997"
+}, {
+  "City": "Providence",
+  "total_sales": "1666.4200000000003",
+  "total_profit": "245.51999999999998"
+}, {
+  "City": "Fairfield",
+  "total_sales": "1657.1499999999999",
+  "total_profit": "307.56999999999994"
+}, {
+  "City": "Clinton",
+  "total_sales": "1599.29",
+  "total_profit": "477.98999999999995"
+}, {
+  "City": "Mesa",
+  "total_sales": "1580.37",
+  "total_profit": "237.62999999999997"
+}, {
+  "City": "Raleigh",
+  "total_sales": "1572.8299999999995",
+  "total_profit": "165.05"
+}, {
+  "City": "Peoria",
+  "total_sales": "1559.38",
+  "total_profit": "-34.129999999999995"
+}, {
+  "City": "Huntsville",
+  "total_sales": "1521.3499999999997",
+  "total_profit": "70.739999999999981"
+}, {
+  "City": "Nashville",
+  "total_sales": "1517.83",
+  "total_profit": "183.14999999999998"
+}, {
+  "City": "Decatur",
+  "total_sales": "1449.0699999999997",
+  "total_profit": "171.95999999999995"
+}, {
+  "City": "Everett",
+  "total_sales": "1428.9799999999998",
+  "total_profit": "312.84999999999997"
+}, {
+  "City": "Memphis",
+  "total_sales": "1409.74",
+  "total_profit": "157.92"
+}, {
+  "City": "Westminster",
+  "total_sales": "1402.51",
+  "total_profit": "234.04"
+}, {
+  "City": "Oceanside",
+  "total_sales": "1399.09",
+  "total_profit": "309.38000000000005"
+}, {
+  "City": "Wilmington",
+  "total_sales": "1397.2699999999998",
+  "total_profit": "309.54999999999995"
+}, {
+  "City": "Bakersfield",
+  "total_sales": "1377.28",
+  "total_profit": "187.93"
+}, {
+  "City": "Tulsa",
+  "total_sales": "1361.08",
+  "total_profit": "336.0"
+}, {
+  "City": "Alexandria",
+  "total_sales": "1355.52",
+  "total_profit": "235.34000000000003"
+}, {
+  "City": "Atlanta",
+  "total_sales": "1332.86",
+  "total_profit": "421.21999999999991"
+}, {
+  "City": "El Paso",
+  "total_sales": "1293.3899999999999",
+  "total_profit": "-31.640000000000011"
+}, {
+  "City": "Knoxville",
+  "total_sales": "1285.4699999999998",
+  "total_profit": "-14.430000000000007"
+}, {
+  "City": "Troy",
+  "total_sales": "1276.8200000000002",
+  "total_profit": "187.03"
+}, {
+  "City": "Costa Mesa",
+  "total_sales": "1241.9199999999998",
+  "total_profit": "215.36999999999995"
+}, {
+  "City": "Glendale",
+  "total_sales": "1239.77",
+  "total_profit": "75.84999999999998"
+}, {
+  "City": "Inglewood",
+  "total_sales": "1237.3999999999999",
+  "total_profit": "206.37"
+}, {
+  "City": "Marion",
+  "total_sales": "1197.88",
+  "total_profit": "225.75"
+}, {
+  "City": "Redlands",
+  "total_sales": "1196.8300000000002",
+  "total_profit": "183.89"
+}, {
+  "City": "Smyrna",
+  "total_sales": "1184.57",
+  "total_profit": "285.11999999999995"
+}, {
+  "City": "Bowling Green",
+  "total_sales": "1177.3799999999999",
+  "total_profit": "142.07000000000002"
+}, {
+  "City": "Oklahoma City",
+  "total_sales": "1174.7099999999996",
+  "total_profit": "392.73"
+}, {
+  "City": "Saint Petersburg",
+  "total_sales": "1173.83",
+  "total_profit": "158.45999999999998"
+}, {
+  "City": "Gilbert",
+  "total_sales": "1166.85",
+  "total_profit": "66.609999999999985"
+}, {
+  "City": "Little Rock",
+  "total_sales": "1157.24",
+  "total_profit": "363.57000000000005"
+}, {
+  "City": "Virginia Beach",
+  "total_sales": "1135.89",
+  "total_profit": "315.24"
+}, {
+  "City": "Minneapolis",
+  "total_sales": "1123.1100000000001",
+  "total_profit": "210.79999999999998"
+}, {
+  "City": "Miramar",
+  "total_sales": "1112.06",
+  "total_profit": "89.92"
+}, {
+  "City": "Monroe",
+  "total_sales": "1108.22",
+  "total_profit": "295.45"
+}, {
+  "City": "Lakeland",
+  "total_sales": "1077.71",
+  "total_profit": "106.74"
+}, {
+  "City": "Des Moines",
+  "total_sales": "1073.67",
+  "total_profit": "242.81000000000003"
+}, {
+  "City": "Hollywood",
+  "total_sales": "1070.47",
+  "total_profit": "108.19999999999999"
+}, {
+  "City": "Florence",
+  "total_sales": "1050.36",
+  "total_profit": "239.84000000000003"
+}, {
+  "City": "Tallahassee",
+  "total_sales": "1049.56",
+  "total_profit": "97.999999999999972"
+}, {
+  "City": "Edmonds",
+  "total_sales": "1045.17",
+  "total_profit": "236.22"
+}, {
+  "City": "Toledo",
+  "total_sales": "1040.11",
+  "total_profit": "33.780000000000008"
+}, {
+  "City": "Paterson",
+  "total_sales": "1035.1599999999999",
+  "total_profit": "229.47"
+}, {
+  "City": "Quincy",
+  "total_sales": "1017.56",
+  "total_profit": "253.89"
+}, {
+  "City": "Chesapeake",
+  "total_sales": "998.31999999999982",
+  "total_profit": "314.15"
+}, {
+  "City": "Grand Prairie",
+  "total_sales": "993.06",
+  "total_profit": "-35.680000000000007"
+}, {
+  "City": "Pocatello",
+  "total_sales": "989.59",
+  "total_profit": "88.96"
+}, {
+  "City": "Chattanooga",
+  "total_sales": "988.81000000000006",
+  "total_profit": "27.199999999999996"
+}, {
+  "City": "Scottsdale",
+  "total_sales": "977.05",
+  "total_profit": "119.53999999999998"
+}, {
+  "City": "Colorado Springs",
+  "total_sales": "964.66000000000008",
+  "total_profit": "56.89"
+}]
