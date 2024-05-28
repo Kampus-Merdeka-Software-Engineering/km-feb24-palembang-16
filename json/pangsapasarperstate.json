@@ -1,0 +1,193 @@
+[{
+  "State": "California",
+  "total_sales": "132629.27",
+  "market_share": "0.23815436765178336"
+}, {
+  "State": "New York",
+  "total_sales": "61620.560000000019",
+  "market_share": "0.11064831692995657"
+}, {
+  "State": "Texas",
+  "total_sales": "50094.630000000005",
+  "market_share": "0.089951900741066113"
+}, {
+  "State": "Washington",
+  "total_sales": "33704.129999999961",
+  "market_share": "0.060520470084797211"
+}, {
+  "State": "Pennsylvania",
+  "total_sales": "26850.439999999981",
+  "market_share": "0.048213713001452434"
+}, {
+  "State": "Ohio",
+  "total_sales": "21686.419999999976",
+  "market_share": "0.038940994259645569"
+}, {
+  "State": "Florida",
+  "total_sales": "21211.769999999993",
+  "market_share": "0.038088693929515464"
+}, {
+  "State": "Illinois",
+  "total_sales": "20954.470000000012",
+  "market_share": "0.037626675863693344"
+}, {
+  "State": "Michigan",
+  "total_sales": "15214.369999999997",
+  "market_share": "0.027319525068412596"
+}, {
+  "State": "Arizona",
+  "total_sales": "13941.480000000005",
+  "market_share": "0.02503387339408553"
+}, {
+  "State": "North Carolina",
+  "total_sales": "13584.04000000001",
+  "market_share": "0.024392039979987328"
+}, {
+  "State": "Virginia",
+  "total_sales": "12911.1",
+  "market_share": "0.023183682276083858"
+}, {
+  "State": "Tennessee",
+  "total_sales": "10405.539999999994",
+  "market_share": "0.01868459955163243"
+}, {
+  "State": "Colorado",
+  "total_sales": "10334.1",
+  "market_share": "0.01855631905951299"
+}, {
+  "State": "Georgia",
+  "total_sales": "9614.6299999999937",
+  "market_share": "0.017264410245610675"
+}, {
+  "State": "Oregon",
+  "total_sales": "8386.0800000000036",
+  "market_share": "0.015058377230586192"
+}, {
+  "State": "Indiana",
+  "total_sales": "7636.6699999999973",
+  "market_share": "0.013712706967438966"
+}, {
+  "State": "Kentucky",
+  "total_sales": "6994.6999999999989",
+  "market_share": "0.012559960221555384"
+}, {
+  "State": "Massachusetts",
+  "total_sales": "6600.8899999999967",
+  "market_share": "0.011852819395665674"
+}, {
+  "State": "Maryland",
+  "total_sales": "6294.08",
+  "market_share": "0.011301899213874408"
+}, {
+  "State": "New Jersey",
+  "total_sales": "5939.2399999999971",
+  "market_share": "0.010664734462703272"
+}, {
+  "State": "Wisconsin",
+  "total_sales": "5906.7500000000018",
+  "market_share": "0.010606394132510659"
+}, {
+  "State": "Delaware",
+  "total_sales": "4509.3300000000008",
+  "market_share": "0.0080971314603723327"
+}, {
+  "State": "Missouri",
+  "total_sales": "4479.47",
+  "market_share": "0.00804351366229441"
+}, {
+  "State": "Minnesota",
+  "total_sales": "4248.9200000000019",
+  "market_share": "0.0076295289554335621"
+}, {
+  "State": "Oklahoma",
+  "total_sales": "3506.4",
+  "market_share": "0.0062962306490431047"
+}, {
+  "State": "Alabama",
+  "total_sales": "3202.8899999999994",
+  "market_share": "0.0057512360778900484"
+}, {
+  "State": "Connecticut",
+  "total_sales": "3129.3",
+  "market_share": "0.0056190949606578231"
+}, {
+  "State": "South Carolina",
+  "total_sales": "2954.6499999999996",
+  "market_share": "0.0053054865067291828"
+}, {
+  "State": "Utah",
+  "total_sales": "2898.9599999999996",
+  "market_share": "0.0052054873381103114"
+}, {
+  "State": "Rhode Island",
+  "total_sales": "2840.5400000000004",
+  "market_share": "0.0051005860734180085"
+}, {
+  "State": "Arkansas",
+  "total_sales": "2793.7200000000003",
+  "market_share": "0.0050165142279388272"
+}, {
+  "State": "Mississippi",
+  "total_sales": "2610.0200000000004",
+  "market_share": "0.0046866552357447775"
+}, {
+  "State": "Nevada",
+  "total_sales": "2405.9300000000003",
+  "market_share": "0.0043201831523648985"
+}, {
+  "State": "Idaho",
+  "total_sales": "2202.3199999999997",
+  "market_share": "0.0039545729759869405"
+}, {
+  "State": "Louisiana",
+  "total_sales": "2188.7300000000005",
+  "market_share": "0.0039301702339950145"
+}, {
+  "State": "New Hampshire",
+  "total_sales": "2060.4600000000005",
+  "market_share": "0.0036998435441271274"
+}, {
+  "State": "New Mexico",
+  "total_sales": "1807.65",
+  "market_share": "0.0032458879000521247"
+}, {
+  "State": "Kansas",
+  "total_sales": "1684.09",
+  "market_share": "0.0030240186726406006"
+}, {
+  "State": "Nebraska",
+  "total_sales": "1312.8500000000001",
+  "market_share": "0.002357405432237121"
+}, {
+  "State": "Iowa",
+  "total_sales": "1039.64",
+  "market_share": "0.001866818740580417"
+}, {
+  "State": "Montana",
+  "total_sales": "757.95999999999992",
+  "market_share": "0.0013610229816189571"
+}, {
+  "State": "South Dakota",
+  "total_sales": "509.27",
+  "market_share": "0.000914465372643789"
+}, {
+  "State": "Vermont",
+  "total_sales": "407.29",
+  "market_share": "0.00073134604752702671"
+}, {
+  "State": "Maine",
+  "total_sales": "317.52",
+  "market_share": "0.00057015148177166517"
+}, {
+  "State": "District of Columbia",
+  "total_sales": "217.57",
+  "market_share": "0.00039067730501719951"
+}, {
+  "State": "North Dakota",
+  "total_sales": "215.14999999999998",
+  "market_share": "0.00038633185721584069"
+}, {
+  "State": "West Virginia",
+  "total_sales": "88.64",
+  "market_share": "0.00015916549302166918"
+}]

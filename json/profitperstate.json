@@ -1,0 +1,241 @@
+[{
+  "State": "Illinois",
+  "total_profit": "324.05000000000013",
+  "total_sales": "20954.470000000012",
+  "profit_margin": "0.01546448084823906"
+}, {
+  "State": "Pennsylvania",
+  "total_profit": "608.04999999999984",
+  "total_sales": "26850.439999999981",
+  "profit_margin": "0.022645811390800311"
+}, {
+  "State": "Texas",
+  "total_profit": "1504.5400000000004",
+  "total_sales": "50094.630000000005",
+  "profit_margin": "0.030033957731597186"
+}, {
+  "State": "Ohio",
+  "total_profit": "1088.3700000000006",
+  "total_sales": "21686.419999999976",
+  "profit_margin": "0.050186706704011159"
+}, {
+  "State": "Arizona",
+  "total_profit": "891.73999999999978",
+  "total_sales": "13941.480000000005",
+  "profit_margin": "0.063963079959946822"
+}, {
+  "State": "Tennessee",
+  "total_profit": "689.64000000000021",
+  "total_sales": "10405.539999999994",
+  "profit_margin": "0.066276233621705427"
+}, {
+  "State": "Florida",
+  "total_profit": "1416.4100000000017",
+  "total_sales": "21211.769999999993",
+  "profit_margin": "0.066774719884290762"
+}, {
+  "State": "Colorado",
+  "total_profit": "692.46000000000026",
+  "total_sales": "10334.1",
+  "profit_margin": "0.067007286556158757"
+}, {
+  "State": "North Carolina",
+  "total_profit": "1156.93",
+  "total_sales": "13584.04000000001",
+  "profit_margin": "0.085168329893021463"
+}, {
+  "State": "Oregon",
+  "total_profit": "811.9",
+  "total_sales": "8386.0800000000036",
+  "profit_margin": "0.096815198519451237"
+}, {
+  "State": "Idaho",
+  "total_profit": "314.63",
+  "total_sales": "2202.3199999999997",
+  "profit_margin": "0.1428629808565513"
+}, {
+  "State": "California",
+  "total_profit": "23769.980000000065",
+  "total_sales": "132629.27",
+  "profit_margin": "0.17922122318851688"
+}, {
+  "State": "Washington",
+  "total_profit": "6394.260000000002",
+  "total_sales": "33704.129999999961",
+  "profit_margin": "0.18971740258538078"
+}, {
+  "State": "Montana",
+  "total_profit": "153.22",
+  "total_sales": "757.95999999999992",
+  "profit_margin": "0.20214787060003167"
+}, {
+  "State": "Rhode Island",
+  "total_profit": "578.94999999999993",
+  "total_sales": "2840.5400000000004",
+  "profit_margin": "0.20381687988903513"
+}, {
+  "State": "South Carolina",
+  "total_profit": "643.59999999999991",
+  "total_sales": "2954.6499999999996",
+  "profit_margin": "0.21782613845971605"
+}, {
+  "State": "New York",
+  "total_profit": "13623.429999999984",
+  "total_sales": "61620.560000000019",
+  "profit_margin": "0.22108578695162751"
+}, {
+  "State": "Alabama",
+  "total_profit": "715.15",
+  "total_sales": "3202.8899999999994",
+  "profit_margin": "0.22328272279097944"
+}, {
+  "State": "Kansas",
+  "total_profit": "381.41",
+  "total_sales": "1684.09",
+  "profit_margin": "0.22647839486013221"
+}, {
+  "State": "New Mexico",
+  "total_profit": "416.56999999999994",
+  "total_sales": "1807.65",
+  "profit_margin": "0.23044837219594497"
+}, {
+  "State": "Wisconsin",
+  "total_profit": "1418.99",
+  "total_sales": "5906.7500000000018",
+  "profit_margin": "0.2402319380369915"
+}, {
+  "State": "Missouri",
+  "total_profit": "1082.2299999999996",
+  "total_sales": "4479.47",
+  "profit_margin": "0.24159777830859444"
+}, {
+  "State": "Utah",
+  "total_profit": "727.17",
+  "total_sales": "2898.9599999999996",
+  "profit_margin": "0.25083823164169222"
+}, {
+  "State": "Louisiana",
+  "total_profit": "560.0",
+  "total_sales": "2188.7300000000005",
+  "profit_margin": "0.25585613574995542"
+}, {
+  "State": "New Jersey",
+  "total_profit": "1552.3499999999997",
+  "total_sales": "5939.2399999999971",
+  "profit_margin": "0.26137182535139186"
+}, {
+  "State": "Michigan",
+  "total_profit": "3990.9799999999973",
+  "total_sales": "15214.369999999997",
+  "profit_margin": "0.26231648106362593"
+}, {
+  "State": "Oklahoma",
+  "total_profit": "919.90999999999974",
+  "total_sales": "3506.4",
+  "profit_margin": "0.26235169974903028"
+}, {
+  "State": "Virginia",
+  "total_profit": "3403.6699999999996",
+  "total_sales": "12911.1",
+  "profit_margin": "0.26362354872938787"
+}, {
+  "State": "New Hampshire",
+  "total_profit": "544.65",
+  "total_sales": "2060.4600000000005",
+  "profit_margin": "0.26433417780495611"
+}, {
+  "State": "Georgia",
+  "total_profit": "2575.91",
+  "total_sales": "9614.6299999999937",
+  "profit_margin": "0.26791566602146955"
+}, {
+  "State": "Connecticut",
+  "total_profit": "843.84000000000037",
+  "total_sales": "3129.3",
+  "profit_margin": "0.26965775093471395"
+}, {
+  "State": "Maryland",
+  "total_profit": "1699.03",
+  "total_sales": "6294.08",
+  "profit_margin": "0.26994096039452947"
+}, {
+  "State": "Mississippi",
+  "total_profit": "716.85999999999967",
+  "total_sales": "2610.0200000000004",
+  "profit_margin": "0.274656899180849"
+}, {
+  "State": "Massachusetts",
+  "total_profit": "1831.5100000000002",
+  "total_sales": "6600.8899999999967",
+  "profit_margin": "0.27746409953809276"
+}, {
+  "State": "Minnesota",
+  "total_profit": "1185.52",
+  "total_sales": "4248.9200000000019",
+  "profit_margin": "0.27901678544194747"
+}, {
+  "State": "Indiana",
+  "total_profit": "2202.28",
+  "total_sales": "7636.6699999999973",
+  "profit_margin": "0.2883822399029945"
+}, {
+  "State": "Kentucky",
+  "total_profit": "2025.1300000000003",
+  "total_sales": "6994.6999999999989",
+  "profit_margin": "0.28952349636153096"
+}, {
+  "State": "South Dakota",
+  "total_profit": "149.84",
+  "total_sales": "509.27",
+  "profit_margin": "0.294225067253127"
+}, {
+  "State": "Maine",
+  "total_profit": "93.740000000000009",
+  "total_sales": "317.52",
+  "profit_margin": "0.29522549760645006"
+}, {
+  "State": "Delaware",
+  "total_profit": "1380.0099999999995",
+  "total_sales": "4509.3300000000008",
+  "profit_margin": "0.30603437761263852"
+}, {
+  "State": "Nevada",
+  "total_profit": "742.2800000000002",
+  "total_sales": "2405.9300000000003",
+  "profit_margin": "0.30852102929012903"
+}, {
+  "State": "North Dakota",
+  "total_profit": "68.05",
+  "total_sales": "215.14999999999998",
+  "profit_margin": "0.31629095979549154"
+}, {
+  "State": "Arkansas",
+  "total_profit": "907.6",
+  "total_sales": "2793.7200000000003",
+  "profit_margin": "0.32487149750153915"
+}, {
+  "State": "Nebraska",
+  "total_profit": "445.52",
+  "total_sales": "1312.8500000000001",
+  "profit_margin": "0.33935331530639445"
+}, {
+  "State": "Vermont",
+  "total_profit": "157.67",
+  "total_sales": "407.29",
+  "profit_margin": "0.38711974268948413"
+}, {
+  "State": "Iowa",
+  "total_profit": "416.30000000000007",
+  "total_sales": "1039.64",
+  "profit_margin": "0.40042707090916091"
+}, {
+  "State": "District of Columbia",
+  "total_profit": "94.149999999999991",
+  "total_sales": "217.57",
+  "profit_margin": "0.43273429241163763"
+}, {
+  "State": "West Virginia",
+  "total_profit": "43.440000000000005",
+  "total_sales": "88.64",
+  "profit_margin": "0.490072202166065"
+}]

@@ -1,0 +1,49 @@
+[{
+  "Category": "Office Supplies",
+  "tahun": "2014",
+  "total_Profit": "10429.229999999987"
+}, {
+  "Category": "Furniture",
+  "tahun": "2014",
+  "total_Profit": "2533.12"
+}, {
+  "Category": "Technology",
+  "tahun": "2014",
+  "total_Profit": "4098.9299999999994"
+}, {
+  "Category": "Office Supplies",
+  "tahun": "2015",
+  "total_Profit": "11639.069999999998"
+}, {
+  "Category": "Furniture",
+  "tahun": "2015",
+  "total_Profit": "3219.5100000000016"
+}, {
+  "Category": "Technology",
+  "tahun": "2015",
+  "total_Profit": "4629.5199999999977"
+}, {
+  "Category": "Office Supplies",
+  "tahun": "2016",
+  "total_Profit": "13961.099999999982"
+}, {
+  "Category": "Furniture",
+  "tahun": "2016",
+  "total_Profit": "3320.879999999996"
+}, {
+  "Category": "Technology",
+  "tahun": "2016",
+  "total_Profit": "4701.2899999999954"
+}, {
+  "Category": "Office Supplies",
+  "tahun": "2017",
+  "total_Profit": "17272.319999999974"
+}, {
+  "Category": "Technology",
+  "tahun": "2017",
+  "total_Profit": "7778.1900000000005"
+}, {
+  "Category": "Furniture",
+  "tahun": "2017",
+  "total_Profit": "4370.7599999999966"
+}]
