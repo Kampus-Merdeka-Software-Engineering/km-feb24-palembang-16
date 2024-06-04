@@ -9,6 +9,7 @@
 
 body {
   font-family: "Kanit", sans-serif;
+  background-color: #153448;
   /* width: 100%; */
 }
 
@@ -26,8 +27,8 @@ a {
 .hero {
   width: 100%;
   height: 100vh;
-  background-color: #850001;
-  background-image: url(../assets/unida-building.png);
+  background-color: #153448;
+  background-image: url(../img/—Pngtree—technological\ sense\ geometric\ line\ simple_932581.jpg);
   background-size: cover;
   background-position: center;
   /* transform: scaleX(-1); */
@@ -39,33 +40,33 @@ a {
   padding-left: 2em;
   /* transform: scaleX(-1); */
   font-size: 3rem;
-  color: aliceblue;
+  font-family: Ubuntu;
+  color: #DFD0B8;
   font-weight: 400;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100vh;
-  text-transform: uppercase;
   /* padding: 2em; */
   background-image: linear-gradient(
     to right,
-    /* rgba(133,0,1,2), */ rgba(133, 0, 1, 1),
-    rgba(133, 0, 1, 0.9),
-    rgba(133, 0, 1, 0.2),
+    /* rgba(133,0,1,2), */ #153448,
+    #153448,
+    rgba(1, 129, 214, 0.2),
     rgba(0, 0, 0, 0)
   );
 }
 
-.logo-unida-hero {
+.pay-attention {
   position: absolute;
   padding-top: 300px;
-  padding-left: 5.8em;
+  padding-left: 6.3em;
+  color: #DFD0B8;
+  font-family: Ubuntu;
+  font-size: 1rem;
 }
 
-.logo-unida-hero img {
-  height: 50px;
-}
 
 .btn-seemore {
   position: absolute;
@@ -79,15 +80,16 @@ a {
   font-weight: bold;
   font-size: 14px;
   outline: none;
+  font-family: Ubuntu;
   margin-left: 7em;
   cursor: pointer;
   background: none;
-  border: 2px #ffda89 solid;
-  color: #ffda89;
+  border: 2px #DFD0B8 solid;
+  color: #DFD0B8;
 }
 
 .btn-seemore a {
-  color: #252525;
+  color: #DFD0B8;
 }
 
 button:active {
@@ -95,8 +97,8 @@ button:active {
   transition: ease-in-out 1;
 }
 button:hover {
-  color: #850001;
-  background-color: #ffda89;
+  color: #153448;
+  background-color: #DFD0B8;
   transition: ease-in-out .3s;
 }
 /* Hero End */
@@ -104,8 +106,9 @@ button:hover {
 /* About Start */
 .about-container {
   width: 80%;
-  height: 230px;
-  background-color: #f9f9f9;
+  height: 280px;
+  background-color: #DFD0B8;
+  color: #153448;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   margin: -5% auto 20px auto;
@@ -113,93 +116,28 @@ button:hover {
   position: relative;
 }
 
-.about-container .arti-ospek {
+.about-container .what-is-superstore-giant {
   text-align: justify;
 }
-.about-container .tujuan-ospek {
+.about-container .what-is-superstore-giant h3 {
+  font-family: Ubuntu;
+} 
+.about-container .what-is-superstore-giant p {
+  font-family: "Kanit", sans-serif;
+}
+
+.about-container .why-we-created-this-website {
   padding-top: 15px;
   text-align: justify;
 }
+.about-container .why-we-created-this-website h3 {
+  font-family: Ubuntu;
+}
+.about-container .why-we-created-this-website p {
+  font-family: "Kanit", sans-serif;
+}
+
 /* About End */
 
-/* Timeline Start */
-.timeline {
-  position: relative;
-  max-width: 100%;
-  height: 180vh;
-  margin: 30px auto 60px auto;
 
-}
-.timeline a {
-  color: #252525;
-}
-
-.jdl-timeline {
-  padding-top: 80px;
-  text-align: center;
-  font-size: 1.3em;
-}
-
-.timeline-container {
-  padding: 10px 50px;
-  position: relative;
-  width: 50%;
-  /* background: rgba(0, 0, 0, .3); */
-}
-
-.text-box {
-  padding: 20px 30px;
-  background: #f9f9f9;
-  position: relative;
-  border-radius: 8px;
-  border: 2px #850001 solid;
-  cursor: pointer;
-  transition: ease-in-out .4s;
-}
-.text-box:hover {
-  transform: scale(1.05);
-  
-}
-.text-box .desc-timeline {
-  text-align: justify;
-  padding-top: 6px;
-  font-weight: 300;
-}
-.text-box .lihat-detail {
-  font-size: 12px;
-  color: #2597D8;
-  text-align: end;
-  padding-top: 30px;
-}
-
-.right-timeline {
-  left: 50%;
-}
-
-.timeline-container img {
-  position: absolute;
-  width: 30px;
-  border-radius: 50%;
-  right: -20px;
-  top: 60px;
-  background-color: #850001;
-  z-index: 2;
-}
-.right-timeline img {
-  left: -10px;
-}
-.timeline-border::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  height: 975px;
-  background: #850001;
-  opacity: 50%;
-  top: 0;
-  left: 50%;
-  margin-left: 3px;
-  z-index: -1;
-  border-radius: 8px;
-}
-/* Timeline End */
   
