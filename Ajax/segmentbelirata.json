@@ -1,0 +1,23 @@
+{
+  "data":[
+  {
+    "Segment": "Home Office",
+    "average_sales": "66.792113587347146",
+    "Total_sales": "92907.83",
+    "total_profit": "15969.959999999997",
+    "profit_margin": "0.17189035628105831"
+  }, {
+    "Segment": "Corporate",
+    "average_sales": "70.224915325994985",
+    "Total_sales": "165871.2499999998",
+    "total_profit": "26379.800000000014",
+    "profit_margin": "0.15903780793838623"
+  }, {
+    "Segment": "Consumer",
+    "average_sales": "72.3430114049988",
+    "Total_sales": "298125.55000000127",
+    "total_profit": "45604.160000000091",
+    "profit_margin": "0.15296964651302075"
+
+  }]
+}

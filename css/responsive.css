@@ -1,0 +1,1064 @@
+@media screen and (max-width: 456px) {
+  a:active,
+  a:focus,
+  .hamburger,
+  #scroll-top-button {
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Navbar */
+  nav {
+    max-width: 100%;
+    display: flex;
+  }
+
+  li #active::after,
+  li #active:hover::after {
+    background: none;
+  }
+  i nav ul li #active {
+    position: relative;
+    margin: 10px 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffda89;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .nav-menu li {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+
+  /* Hero - home */
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background-color: #153448;
+  }
+  .hero h3 {
+    padding-top: 5.6em;
+    padding-left: 2em;
+    /* transform: scaleX(-1); */
+    font-size: 1.8rem;
+    color: aliceblue;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    text-transform: uppercase;
+    /* padding: 2em; */
+    background-image: linear-gradient(
+      to right,
+      /* rgba(133,0,1,2), */ #153448,
+    #153448,
+    rgba(1, 129, 214, 0.2),
+    rgba(0, 0, 0, 0)
+    );
+  }
+  .logo-unida-hero {
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 3em;
+  }
+  .logo-unida-hero img {
+    height: 50px;
+  }
+  .btn-seemore {
+    position: absolute;
+    padding-top: 350px;
+  }
+
+  .btn-seemore button {
+    margin-left: 4em;
+  }
+  button:hover {
+    color: #ffda89;
+    background: none;
+    transition: none;
+  }
+
+  /* About - home */
+  .about-container {
+    width: 90%;
+    height: 230px;
+    margin: -14% auto 0 auto;
+    padding: 20px 30px;
+  }
+  .about-container .arti-ospek {
+    font-size: 12px;
+  }
+  .about-container .tujuan-ospek {
+    font-size: 12px;
+  }
+
+  /* Timeline - home*/
+  .timeline {
+    height: auto;
+  }
+
+  .jdl-timeline {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .text-box {
+    padding: 20px 20px;
+    transition: none;
+    font-size: 14px;
+  }
+
+  .timeline-container {
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+  .right-timeline {
+    left: 0;
+  }
+
+  .timeline-border::after,
+  .timeline-container img {
+    display: none;
+  }
+
+  /* Timeline jadwal */
+  .jadwal {
+    height: auto;
+  }
+
+  .jadwal .jdl-timeline {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .timeline-agenda {
+    gap: 15px;
+    padding: 30px 10px;
+  }
+  .timeline-agenda::after {
+    display: none;
+  }
+  .timeline-content {
+    width: 100%;
+    cursor: none;
+    transition: none;
+  }
+  .timeline-content::before {
+    display: none;
+  }
+
+  .desc {
+    font-size: 15px;
+  }
+  .timeline-content:nth-child(even):hover,
+  .timeline-content:nth-child(odd):hover {
+    transform: none;
+    transition: none;
+  }
+  .timeline-content:nth-child(even) {
+    margin-left: auto;
+  }
+  .timeline-content:nth-child(even) .desc {
+    text-align: left;
+  }
+
+  .timeline-content:nth-child(odd) .tag {
+    right: 10px;
+  }
+
+  .tag {
+    font-size: 12px;
+  }
+  .tag .tag-progress {
+    background-color: rgb(105, 215, 72);
+    color: #f9f9f9;
+    padding: 6px 5px;
+    border-radius: 7px;
+  }
+
+  /* Footer */
+  .footer-container {
+    display: block;
+  }
+
+  .content-contact-alamat,
+  .content-contact-telp,
+  .content-contact-email {
+    margin-right: 0;
+  }
+
+  .content-contact-alamat p,
+  .content-contact-telp p,
+  .content-contact-email p {
+    margin-right: 0;
+  }
+  .footer-center {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .social-media img {
+    height: 30px;
+  }
+  .footer-center p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .footer-center p {
+    display: none;
+  }
+
+  /* Pembayaran DU */
+  .pembayaran-du {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pembayaran-du .jdl-pembayaran-du {
+    text-align: center;
+    font-size: 1em;
+  }
+  .pembayaran-du .info-pembayaran-du {
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .card-pembayaran-du {
+    display: block;
+    /* margin-left: 50px; */
+  }
+
+  /* Card Pendaftaran */
+  .card-pendaftaran {
+    width: 250px;
+    height: 260px;
+    transition: none;
+  }
+  .jdl-pendaftaran-card {
+    padding-top: 0;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .harga-pendaftaran {
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-top: 0;
+  }
+  .list-ketentuan {
+    font-size: 0.8em;
+  }
+  .btn-pembayaran button {
+    width: 200px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  /* Card DU */
+  .card-du {
+    width: 250px;
+    height: 310px;
+    transition: none;
+  }
+
+  /* Card Info */
+  .card-info {
+    width: 250px;
+    padding: 20px 10px;
+    height: 210px;
+    transition: none;
+  }
+  .card-info .desc-du {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .btn-pembayaran button:active {
+    transform: none;
+    transition: none;
+  }
+  .btn-pembayaran button:hover {
+    transition: none;
+    background: #ffda89;
+    color: #090909;
+  }
+
+  /* Card Narahubung */
+  .narahubung {
+    height: auto;
+    width: 100%;
+  }
+  .card-narahubung {
+    display: block;
+    margin: 20px 65px;
+  }
+  .card-narahubung-wa:hover,
+  .text-box:hover {
+    transform: none;
+  }
+  .card-narahubung-wa {
+    margin-top: 20px;
+    width: 260px;
+    height: 100px;
+    font-size: 0.8em;
+    padding: 10px 20px;
+  }
+
+  /* Popup Pembayaran */
+  .popup-pembayaran {
+    height: 102vh;
+  }
+  .popup-pembayaran-putra,
+  .popup-pembayaran-putri {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: none;
+    transition: none;
+    width: 90%;
+    height: 250px;
+    padding: 20px;
+  }
+  .popup__header p {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  /* Popup lainnya */
+  .popup-details {
+    height: 112vh;
+  }
+  .popup-details .popup-container {
+    top: 4%;
+    left: 5%;
+    transform: none;
+    transition: none;
+
+    width: 90%;
+    height: 780px;
+  }
+  .popup-header {
+    color: #090909;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  /* Card Narahubung */
+  .narahubung {
+    height: auto;
+    width: 100%;
+  }
+  .card-narahubung {
+    /* display: block; */
+    margin: 0px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-narahubung-wa:hover,
+  .text-box:hover {
+    transform: none;
+  }
+  .card-narahubung-wa {
+    margin-top: 20px;
+    width: 260px;
+    height: 100px;
+    font-size: 0.8em;
+    padding: 10px 20px;
+  }
+  .putri {
+    margin-bottom: 40px;
+  }
+
+  /* Jurusan */
+  .jurusan {
+    height: auto;
+  }
+  .jdl-jurusan h3 {
+    font-size: 1em;
+  }
+
+  .jurusan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff6c3;
+  }
+
+  .card-jurusan .row-1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .card-jurusan .tengah {
+    margin: 20px auto;
+    height: 240px;
+  }
+
+  .card-1,
+  .card-3 {
+    margin: 0 auto;
+    height: 240px;
+  }
+
+  .nama-fakultas img {
+    width: 40px;
+  }
+  .nama-fakultas p {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .prodi img {
+    width: 20px;
+  }
+  .prodi p {
+    padding-left: 30px;
+    color: #090909;
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 416px) {
+  a:active,
+  a:focus,
+  .hamburger,
+  #scroll-top-button {
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Navbar */
+  nav {
+    max-width: 100%;
+    display: flex;
+  }
+
+  li #active::after,
+  li #active:hover::after {
+    background: none;
+  }
+  i nav ul li #active {
+    position: relative;
+    margin: 10px 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffda89;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .nav-menu li {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+
+  /* Hero - home */
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background-color: #850001;
+  }
+  .hero h3 {
+    padding-top: 5.6em;
+    padding-left: 2 em;
+    /* transform: scaleX(-1); */
+    font-size: 1.6rem;
+    color: aliceblue;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    text-transform: uppercase;
+    /* padding: 2em; */
+    background-image: linear-gradient(
+      to right,
+      /* rgba(133,0,1,2), */ rgba(133, 0, 1, 1),
+      rgba(133, 0, 1, 0.9),
+      rgba(133, 0, 1, 0.2),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  .logo-unida-hero {
+    position: absolute;
+    padding-top: 240px;
+    padding-left: 3em;
+  }
+  .logo-unida-hero img {
+    height: 40px;
+  }
+  .btn-seemore {
+    position: absolute;
+    padding-top: 350px;
+  }
+
+  .btn-seemore button {
+    margin-left: 4em;
+  }
+  button:hover {
+    color: #ffda89;
+    background: none;
+    transition: none;
+  }
+
+  /* About - home */
+  .about-container {
+    width: 90%;
+    height: 230px;
+    margin: -14% auto 0 auto;
+    padding: 20px 30px;
+  }
+  .about-container .arti-ospek {
+    font-size: 12px;
+  }
+  .about-container .tujuan-ospek {
+    font-size: 12px;
+  }
+
+  /* Timeline - home*/
+  .timeline {
+    height: 110vh;
+  }
+
+  .jdl-timeline {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .text-box {
+    padding: 20px 20px;
+    transition: none;
+    font-size: 14px;
+  }
+
+  .timeline-container {
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+  .right-timeline {
+    left: 0;
+  }
+
+  .timeline-border::after,
+  .timeline-container img {
+    display: none;
+  }
+
+  /* Timeline jadwal */
+  .jadwal {
+    height: auto;
+  }
+
+  .jadwal .jdl-timeline {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .timeline-agenda {
+    gap: 15px;
+    padding: 30px 10px;
+  }
+  .timeline-agenda::after {
+    display: none;
+  }
+  .timeline-content {
+    width: 100%;
+    cursor: none;
+    transition: none;
+  }
+  .timeline-content::before {
+    display: none;
+  }
+
+  .desc {
+    font-size: 15px;
+  }
+  .timeline-content:nth-child(even):hover,
+  .timeline-content:nth-child(odd):hover {
+    transform: none;
+    transition: none;
+  }
+  .timeline-content:nth-child(even) {
+    margin-left: auto;
+  }
+  .timeline-content:nth-child(even) .desc {
+    text-align: left;
+  }
+
+  .timeline-content:nth-child(odd) .tag {
+    right: 10px;
+  }
+
+  .tag {
+    font-size: 12px;
+  }
+  .tag .tag-progress {
+    background-color: rgb(105, 215, 72);
+    color: #f9f9f9;
+    padding: 6px 5px;
+    border-radius: 7px;
+  }
+
+  /* Jurusan */
+  .jurusan {
+    height: auto;
+  }
+  .jdl-jurusan h3 {
+    font-size: 1em;
+  }
+
+  .jurusan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff6c3;
+  }
+
+  .card-jurusan .row-1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .card-jurusan .tengah {
+    margin: 20px auto;
+    height: 240px;
+  }
+
+  .card-1,
+  .card-3 {
+    margin: 0 auto;
+    height: 240px;
+  }
+
+  .nama-fakultas img {
+    width: 40px;
+  }
+  .nama-fakultas p {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .prodi img {
+    width: 20px;
+  }
+  .prodi p {
+    padding-left: 30px;
+    color: #090909;
+    font-size: 12px;
+  }
+
+  /* Pembayaran DU */
+  .pembayaran-du {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pembayaran-du .jdl-pembayaran-du {
+    text-align: center;
+    font-size: 1em;
+  }
+  .pembayaran-du .info-pembayaran-du {
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .card-pembayaran-du {
+    display: block;
+    /* margin-left: 50px; */
+  }
+
+  /* Card Pendaftaran */
+  .card-pendaftaran {
+    width: 250px;
+    height: 260px;
+    transition: none;
+  }
+  .jdl-pendaftaran-card {
+    padding-top: 0;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .harga-pendaftaran {
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-top: 0;
+  }
+  .list-ketentuan {
+    font-size: 0.8em;
+  }
+  .btn-pembayaran button {
+    width: 200px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  /* Card DU */
+  .card-du {
+    width: 250px;
+    height: 310px;
+    transition: none;
+  }
+
+  /* Card Info */
+  .card-info {
+    width: 250px;
+    padding: 20px 10px;
+    height: 210px;
+    transition: none;
+  }
+  .card-info .desc-du {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .btn-pembayaran button:active {
+    transform: none;
+    transition: none;
+  }
+  .btn-pembayaran button:hover {
+    transition: none;
+    background: #ffda89;
+    color: #090909;
+  }
+
+  /* Card Narahubung */
+  .narahubung {
+    height: auto;
+    width: 100%;
+  }
+  .card-narahubung {
+    /* display: block; */
+    margin: 20px 65px;
+  }
+  .card-narahubung-wa:hover,
+  .text-box:hover {
+    transform: none;
+  }
+  .card-narahubung-wa {
+    margin-top: 20px;
+    width: 260px;
+    height: 100px;
+    font-size: 0.8em;
+    padding: 10px 20px;
+  }
+
+  /* Popup Pembayaran */
+  .popup-pembayaran {
+    height: 102vh;
+  }
+  .popup-pembayaran-putra,
+  .popup-pembayaran-putri {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: none;
+    transition: none;
+    width: 90%;
+    height: 250px;
+    padding: 20px;
+  }
+  .popup__header p {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  /* Popup lainnya */
+  .popup-details {
+    height: 112vh;
+  }
+  .popup-details .popup-container {
+    top: 4%;
+    left: 5%;
+    transform: none;
+    transition: none;
+
+    width: 90%;
+    height: 780px;
+  }
+  .popup-header {
+    color: #090909;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  /* Footer */
+  .footer-container {
+    display: block;
+  }
+
+  .content-contact-alamat,
+  .content-contact-telp,
+  .content-contact-email {
+    margin-right: 0;
+  }
+
+  .content-contact-alamat p,
+  .content-contact-telp p,
+  .content-contact-email p {
+    margin-right: 0;
+  }
+  .footer-center {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .social-media img {
+    height: 30px;
+  }
+  .footer-center p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .footer-center p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /* nav */
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ffda89;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  nav ul li #active {
+    position: relative;
+    margin: 10px 15px;
+  }
+
+  /* Hero - home */
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background-color: #850001;
+  }
+  .hero h3 {
+    padding-top: 5em;
+    padding-left: 2em;
+    /* transform: scaleX(-1); */
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    text-transform: uppercase;
+    /* padding: 2em; */
+    background-image: linear-gradient(
+      to right,
+      /* rgba(133,0,1,2), */ rgba(133, 0, 1, 1),
+      rgba(133, 0, 1, 0.9),
+      rgba(133, 0, 1, 0.2),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  .logo-unida-hero {
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 2.3em;
+  }
+  .logo-unida-hero img {
+    height: 40px;
+  }
+  .btn-seemore {
+    position: absolute;
+    padding-top: 270px;
+  }
+
+  .btn-seemore button {
+    margin-left: 4em;
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+  button:hover {
+    color: #ffda89;
+    background: none;
+    transition: none;
+  }
+
+  /* About - home */
+  .about-container {
+    width: 90%;
+    height: 230px;
+    margin: -14% auto 0 auto;
+    padding: 20px 30px;
+  }
+  .about-container .arti-ospek {
+    font-size: 11px;
+  }
+  .about-container .tujuan-ospek {
+    font-size: 11px;
+  }
+
+  /* Timeline - home*/
+  .timeline {
+    height: auto;
+  }
+
+  .jdl-timeline {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .text-box {
+    padding: 20px 20px;
+    transition: none;
+    font-size: 14px;
+  }
+
+  .timeline-container {
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+  .right-timeline {
+    left: 0;
+  }
+
+  .timeline-border::after,
+  .timeline-container img {
+    display: none;
+  }
+
+  /* jurusan */
+  .jurusan-container {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff6c3;
+  }
+
+  .tag {
+    position: absolute;
+    top: 20px;
+    font-weight: 400;
+    font-size: 8px;
+  }
+  
+  .tag-selesai {
+    background-color: #850001;
+    color: #f9f9f9;
+    padding: 6px 10px;
+    border-radius: 7px;
+  }
+  .tag-progress {
+    background-color: rgb(105, 215, 72);
+    color: #f9f9f9;
+    padding: 6px 10px;
+    border-radius: 7px;
+  }
+  .tag-soon {
+    background-color: #385ca3;
+    color: #f9f9f9;
+    padding: 6px 10px;
+    border-radius: 7px;
+  }
+  
+  .date {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #090909;
+  }
+  .date-m {
+    font-size: 13px;
+  }
+  .date-h {
+    color: #850001;
+  }
+  .time {
+    color: #151414;
+    font-size: 12px;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #090909;
+    margin-top: 10px;
+    /* padding: 0 10px; */
+  }
+  /* Jadwal End */
+}

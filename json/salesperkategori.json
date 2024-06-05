@@ -1,0 +1,49 @@
+[{
+  "Category": "Office Supplies",
+  "tahun": "2014",
+  "total_penjualan": "50862.399999999965"
+}, {
+  "Category": "Furniture",
+  "tahun": "2014",
+  "total_penjualan": "32635.519999999971"
+}, {
+  "Category": "Technology",
+  "tahun": "2014",
+  "total_penjualan": "27546.909999999985"
+}, {
+  "Category": "Office Supplies",
+  "tahun": "2015",
+  "total_penjualan": "47854.95"
+}, {
+  "Category": "Furniture",
+  "tahun": "2015",
+  "total_penjualan": "37560.019999999946"
+}, {
+  "Category": "Technology",
+  "tahun": "2015",
+  "total_penjualan": "32734.839999999997"
+}, {
+  "Category": "Office Supplies",
+  "tahun": "2016",
+  "total_penjualan": "61646.649999999972"
+}, {
+  "Category": "Furniture",
+  "tahun": "2016",
+  "total_penjualan": "43410.099999999955"
+}, {
+  "Category": "Technology",
+  "tahun": "2016",
+  "total_penjualan": "36532.020000000004"
+}, {
+  "Category": "Office Supplies",
+  "tahun": "2017",
+  "total_penjualan": "77534.169999999969"
+}, {
+  "Category": "Technology",
+  "tahun": "2017",
+  "total_penjualan": "52325.56000000007"
+}, {
+  "Category": "Furniture",
+  "tahun": "2017",
+  "total_penjualan": "56261.489999999969"
+}]
