@@ -15,10 +15,8 @@
     <!--Dashboard-->
     <link href="https://cdn.webdatarocks.com/latest/webdatarocks.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/WEB/Superstore /css/dashboard.css" />
+    <link rel="stylesheet" href="css/datatable.css">
 
-    <!-- simple datables -->
-    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
     <!-- Chart js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -80,32 +78,28 @@
           </ul>
           <hr />
         </div>
-        <div class="w-100">
+        <div class="w-100" >
           <div class="my-3 mx-3">
-            <h1>City</h1>
-            <main style="height: 80vh; width: 95%">
-              <h2 style="text-align: center; margin-bottom: 2">Sales and Profit by city</h2>
-              <div id="wdr-component"></div>
-              <br />
-              <div class="d-flex">
-                <div class="col-6 card">
-                  <div class="card-body" style="background: #dfd0b8">
-                    <h5 class="card-title text-primary">Sales and Profit by city</h5>
-                    <div>
-                      <canvas id="sales-profit-chart"></canvas>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-6 card mx-3">
-                  <div class="card-body" style="background: #dfd0b8">
-                    <h5 class="card-title text-primary">Sales(Quantity) by city</h5>
-                    <div>
-                      <canvas id="sales-quantity-chart"></canvas>
-                    </div>
-                  </div>
+          <h1 style="color: #dfd0b8;">City</h1>
+          <div class="d-flex" style="color:#dfd0b8;">
+            <div class="col-5 card mx-5">
+              <div class="card-body" style="background: #dfd0b8">
+                <h5 class="card-title text-primary" style="color: #dfd0b8;">Penjualan Sales dan Profit berdasarkan City</h5>
+                <div>
+                  <canvas id="sales-profit-chart"></canvas>
                 </div>
               </div>
-            </main>
+            </div>
+            <table id="table" class="display" style="width:100%; color: #dfd0b8; " >
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>total Sales</th>
+                  <th>total profit</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
             <br />
           </div>
         </div>
@@ -114,11 +108,10 @@
   </body>
 
   <!--Script Dashboard-->
-  <script src="https://cdn.webdatarocks.com/latest/webdatarocks.toolbar.min.js"></script>
-  <script src="https://cdn.webdatarocks.com/latest/webdatarocks.js"></script>
-  <script src="https://cdn.webdatarocks.com/latest/webdatarocks.googlecharts.js"></script>
   <script src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="/WEB/Superstore /js/dashboard.js"></script>
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="js/datatables.js"></script>
 
   <script>
     const profitSales = document.getElementById("sales-profit-chart");
@@ -188,44 +181,31 @@
         });
       });
   </script>
-
   <script>
-    const salesQuantity = document.getElementById("sales-quantity-chart");
-    fetch("json/salesquantity.json")
-      .then((Response) => Response.json())
-      .then((data) => {
-        const quantitySales = data.slice(0, 5);
-        const Citiesquantity = quantitySales.map((item) => {
-          return item.Kota;
-        });
-        const total_quantity = quantitySales.map((item) => {
-          return item.total_quantity;
-        });
+    var xmlhttp = new XMLHttpRequest();
+    var url = "/WEB/Superstore_last/Ajax/salesdanprofitcity.json";
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+    xmlhttp.onreadystatechange = function(){
+      if(this.readyState == 4 && this.status == 200){
+        var data = JSON.parse(this.responseText);
+        //console.log(data);
+        new DataTable('#table', {
+      scrollX: true,
+      scrollY: 190,
+      //ajax: 'data/objects.txt',
+      "data":data.data,
+      columns: [
+          { data: 'City' },
+          { data: 'total_sales' },
+          { data: 'total_profit' },
+      ]
+    });
+      }
+    }
 
-        new Chart(salesQuantity, {
-          type: "bar",
-          data: {
-            labels: Citiesquantity,
-            datasets: [
-              {
-                label: "Total quantity",
-                data: total_quantity,
-                borderWidth: 1,
-                backgroundColor: "#3C5B6F",
-                borderWidth: 2,
-                borderRadius: 10,
-                yAxisID: "y-axis-profit",
-              },
-            ],
-          },
-          options: {
-            scales: {
-              y: {
-                beginAtZero: true,
-              },
-            },
-          },
-        });
-      });
+  
   </script>
+
+  
 </html>
