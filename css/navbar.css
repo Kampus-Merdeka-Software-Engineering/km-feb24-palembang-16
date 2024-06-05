@@ -17,7 +17,9 @@ nav {
   height: 60px;
   width: 100%;
   padding: 0 5%;
-  background-color: #ffda89;
+  background-color: #DFD0B8;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   z-index: 20;
   position: fixed;
 }
@@ -35,16 +37,17 @@ nav {
 nav ul li #active {
   position: relative;
   margin: 30px 20px;
-  color: #252525;
+  color: #153448;
+  font-family: Ubuntu;
   /* border-radius: 10px; */
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
 }
 
 li #active::after {
   content: "";
-  background: #dc0000;
+  background: #153448;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -56,7 +59,7 @@ li #active::after {
 
 li #active:hover::after {
   width: 100%;
-  background-color: #dc0000;
+  background-color: #153448;
 }
 
 .hamburger {
@@ -70,7 +73,7 @@ li #active:hover::after {
   height: 2px;
   margin: 5px 0;
   transition: all 0.3s ease;
-  background-color: black;
+  background-color: #153448;
   border-radius: 20px;
 }
 

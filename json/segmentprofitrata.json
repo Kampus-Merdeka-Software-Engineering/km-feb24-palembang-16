@@ -1,0 +1,16 @@
+[{
+  "Segment": "Consumer",
+  "total_profit": "45604.160000000091",
+  "total_sales": "298125.55000000127",
+  "profit_margin": "0.15296964651302075"
+}, {
+  "Segment": "Corporate",
+  "total_profit": "26379.800000000014",
+  "total_sales": "165871.2499999998",
+  "profit_margin": "0.15903780793838623"
+}, {
+  "Segment": "Home Office",
+  "total_profit": "15969.959999999997",
+  "total_sales": "92907.83",
+  "profit_margin": "0.17189035628105831"
+}]

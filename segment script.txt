@@ -1,0 +1,53 @@
+segment script
+new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: Segment,
+            datasets: [
+              {
+                label: "Average Sales",
+                data: average_sales,
+                borderWidth: 1,
+                backgroundColor: "red",
+                borderColor: "rgb(255, 99, 132)",
+                yAxisID: "y-axis-average",
+              },
+              {
+                label: "Total_Sales",
+                data: Total_sales,
+                borderWidth: 1,
+                backgroundColor: ["rgba(255, 159, 64, 0.2)"],
+                borderColor: ["rgb(255, 159, 64)"],
+                yAxisID: "y-axis-total",
+              },
+            ],
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true,
+              },
+              "y-axis-average": {
+                type: "linear",
+                position: "left",
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Average Sales",
+                },
+              },
+              "y-axis-total": {
+                type: "linear",
+                position: "right",
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Total Sales",
+                },
+                // grid: {
+                //   drawOnChartArea: false, // Only draw grid lines for one axis
+                // },
+              },
+            },
+          },
+        });
