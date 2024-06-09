@@ -82,3 +82,17 @@ img.centered {
   bottom: 4px;
   left: 6px;
 }
+
+
+
+#total-profit,
+#total-sales,
+#total-quantity,
+#best-state {
+  font-size: 24px;
+  font-weight: bold;
+  color: #153448; /* Warna hijau */
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+}

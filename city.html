@@ -39,7 +39,12 @@
                 Home
               </a>
             </li>
-            
+            <li>
+              <a href="dashboard.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
+                Dashboar
+              </a>
+            </li>
             <li>
               <a href="products.html" class="nav-link text-dark">
                 <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
@@ -95,7 +100,26 @@
               </thead>
             </table>
           </div>
-            <br />
+          <br><br>
+          <div class="d-flex" style="color:#dfd0b8;">
+            <div class="col-5 card mx-5">
+              <div class="card-body" style="background: #dfd0b8">
+                <h5 class="card-title text-primary">Penjualan (Quantity) berdasarkan City</h5>
+                <div>
+                  <canvas id="sales-quantity-chart"></canvas>
+                </div>
+              </div>
+            </div>
+            <table id="table4" class="display" style="width:100%; color:  #dfd0b8;" >
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>Total Quantity</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+            <br/>
           </div>
         </div>
       </div>
@@ -198,9 +222,69 @@
     });
       }
     }
-
-  
   </script>
+
+<script>
+  const salesQuantity = document.getElementById("sales-quantity-chart");
+  fetch("json/salesquantity.json")
+    .then((Response) => Response.json())
+    .then((data) => {
+      const quantitySales = data.slice(0, 5);
+      const Citiesquantity = quantitySales.map((item) => {
+        return item.Kota;
+      });
+      const total_quantity = quantitySales.map((item) => {
+        return item.total_quantity;
+      });
+
+      new Chart(salesQuantity, {
+        type: "bar",
+        data: {
+          labels: Citiesquantity,
+          datasets: [
+            {
+              label: "Total quantity",
+              data: total_quantity,
+              borderWidth: 1,
+              backgroundColor: "#3C5B6F",
+              borderWidth: 2,
+              borderRadius: 10,
+              yAxisID: "y-axis-profit",
+            },
+          ],
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+            },
+          },
+        },
+      });
+    });
+</script>
+<script>
+  var xmlhttp = new XMLHttpRequest();
+  var url = "Ajax/salesquantity.json";
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+  xmlhttp.onreadystatechange = function(){
+    if(this.readyState == 4 && this.status == 200){
+      var data = JSON.parse(this.responseText);
+      //console.log(data);
+      new DataTable('#table4', {
+    scrollX: true,
+    scrollY: 190,
+    //ajax: 'data/objects.txt',
+    "data":data.data,
+    columns: [
+        { data: 'Kota' },
+        { data: 'total_quantity' },
+    ]
+  });
+    }
+  }
+</script>
 
   
 </html>

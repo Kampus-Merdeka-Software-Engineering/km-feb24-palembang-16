@@ -1,0 +1,517 @@
+New York City	11068.67
+Los Angeles	8809.94
+San Francisco	5813.04
+Seattle	5407.14
+San Diego	2177.76
+Detroit	1951.19
+Columbus	1719.48
+Springfield	1672.57
+Richmond	1396.15
+Newark	1178.92
+Columbia	1085.85
+Jackson	1039.8
+Houston	1034.44
+Louisville	703.27
+Long Beach	692
+Henderson	664.84
+Philadelphia	644.25
+San Jose	641.37
+Baltimore	627.28
+Milwaukee	589.77
+Rochester	573.08
+Lawrence	537.81
+Jacksonville	532.21
+Clinton	477.99
+Concord	447.85
+Arlington	444.82
+Atlanta	421.22
+Lakewood	417.02
+Franklin	412.15
+Anaheim	403.1
+Oklahoma City	392.73
+Indianapolis	374.63
+Fresno	370.14
+Little Rock	363.57
+Lafayette	347.88
+Tulsa	336
+Oakland	332.66
+Denver	329.71
+Portland	329.35
+Dallas	322.75
+Virginia Beach	315.24
+Chesapeake	314.15
+Everett	312.85
+Wilmington	309.55
+Oceanside	309.38
+Fairfield	307.57
+Monroe	295.45
+Dover	293.51
+Trenton	293.1
+Omaha	287.59
+Pasadena	286.52
+Smyrna	285.12
+Roseville	278.18
+Fayetteville	276.16
+Lakeville	269.99
+Las Vegas	262.25
+Roswell	257.34
+Quincy	253.89
+Salem	248.1
+Providence	245.52
+North Las Vegas	243.45
+Des Moines	242.81
+Florence	239.84
+Mesa	237.63
+Edmonds	236.22
+Alexandria	235.34
+Westminster	234.04
+Hampton	231.77
+Paterson	229.47
+Marion	225.75
+Costa Mesa	215.37
+Yonkers	212.89
+Minneapolis	210.8
+Burlington	207.55
+Inglewood	206.37
+Belleville	200.83
+Albuquerque	199.83
+Phoenix	194.32
+Bakersfield	187.93
+Troy	187.03
+Wichita	186.77
+Athens	185.35
+Brentwood	184.45
+Cranston	184.19
+Redlands	183.89
+Nashville	183.15
+Aurora	172.81
+Miami	172.02
+Decatur	171.96
+Raleigh	165.05
+Westland	160.79
+Saint Petersburg	158.46
+Bloomington	158.33
+Memphis	157.92
+Middletown	157.61
+South Bend	154.88
+Hackensack	154.24
+Rome	154.22
+Sandy Springs	153.46
+Charlotte	149.99
+Chicago	149.31
+Auburn	148.74
+Hempstead	146.41
+Macon	144.86
+Salt Lake City	142.42
+Bowling Green	142.07
+Fremont	141.93
+Marietta	140.01
+Mobile	138.27
+Georgetown	136.58
+Suffolk	136.34
+Pomona	136.21
+Waynesboro	135.96
+Orem	133.68
+Grand Rapids	133.26
+Rockville	133.21
+Lowell	131.34
+Madison	131.32
+Buffalo	130.53
+Perth Amboy	129.98
+Montgomery	126.62
+Freeport	125.1
+Oxnard	123.87
+Riverside	123.12
+Dearborn Heights	120.19
+Manchester	119.62
+Scottsdale	119.54
+Tucson	118.95
+New Rochelle	118.3
+Durham	116.88
+Covington	115.11
+Reno	115.05
+Waterbury	114.31
+Midland	113.79
+Provo	111.54
+San Bernardino	110.17
+Utica	110.17
+Overland Park	109.83
+Hollywood	108.2
+Sunnyvale	107.51
+Jonesboro	107.42
+Lakeland	106.74
+Gaithersburg	105.54
+Cincinnati	105.34
+Bristol	103.75
+Lancaster	103.44
+Superior	102.69
+West Jordan	102.67
+Spokane	102.28
+Meriden	102.13
+Temecula	101.89
+Thousand Oaks	99.93
+Saint Louis	98.56
+Sioux Falls	98.44
+Santa Ana	98.08
+Tallahassee	98
+La Crosse	97.09
+Plainfield	96.53
+Kenosha	95.87
+Laredo	95.81
+Southaven	95.73
+Lansing	95.54
+Meridian	95.21
+Olympia	94.34
+Washington	94.15
+Sacramento	93
+Draper	92.73
+Plano	92.26
+Chester	91.31
+Wausau	90.43
+Miramar	89.92
+Watertown	89.31
+Pocatello	88.96
+Visalia	88.05
+Eagan	87.03
+Eau Claire	86.78
+Lebanon	83.81
+Redondo Beach	82.36
+Renton	81.43
+Cambridge	80.13
+Lawton	79.79
+Leominster	79.5
+Bayonne	79.41
+Woonsocket	78.67
+Gulfport	77.58
+Saginaw	77.17
+Santa Clara	75.99
+Glendale	75.85
+Danville	75.82
+Vancouver	75.46
+Newport News	75.06
+Johnson City	74.97
+Apple Valley	74.81
+Helena	74.62
+East Orange	74.19
+Salinas	73.9
+Rancho Cucamonga	73.74
+Park Ridge	73.61
+New Albany	73.35
+San Antonio	73.09
+Lake Forest	72.56
+Amarillo	72.54
+Encinitas	71.06
+Huntsville	70.74
+Warwick	70.57
+Chico	70.24
+Pine Bluff	70.2
+Dearborn	70.05
+Lincoln Park	68.37
+Muskogee	68.22
+Fargo	68.05
+Orland Park	67.99
+Marlborough	67.6
+Moreno Valley	67.33
+Mount Vernon	67.28
+Holland	66.66
+Beverly	66.63
+Gilbert	66.61
+Orange	66.57
+Mentor	66.04
+Orlando	65.74
+Carlsbad	65.52
+Mission Viejo	65.16
+Akron	64.66
+Mishawaka	64.2
+Hattiesburg	64
+San Gabriel	63.68
+Vallejo	63.24
+Pico Rivera	62.74
+Vineland	62.26
+Hot Springs	62.08
+Boise	61.77
+Bangor	61.47
+Westfield	61.38
+Holyoke	60.39
+Arvada	59.85
+Stockton	59.64
+Niagara Falls	59.24
+Caldwell	58.7
+Olathe	58.04
+Urbandale	57.72
+Jamestown	57.59
+Coon Rapids	57.5
+Colorado Springs	56.89
+Murray	56.72
+Pleasant Grove	56.09
+Chula Vista	55.91
+Great Falls	55.1
+Cottage Grove	54.8
+Farmington	54.79
+Citrus Heights	54.34
+Rochester Hills	54.33
+Cary	54.04
+Gastonia	53.97
+Maple Grove	53.82
+Warner Robins	53.69
+Carol Stream	52.93
+El Cajon	52.69
+Gladstone	52.59
+Parma	52.13
+Haltom City	51.96
+Hialeah	51.36
+Thornton	51.25
+Tuscaloosa	51.01
+Wheeling	50.86
+Boynton Beach	50.65
+Harrisonburg	50.6
+New Bedford	50.49
+Deltona	50.14
+Revere	50.12
+Linden	49.6
+Sparks	48.81
+Coachella	47.18
+Kirkwood	47.13
+Logan	46.97
+Laurel	46.18
+Milford	45.9
+Tampa	45.78
+Conway	45.29
+Taylor	44.87
+Rapid City	44.77
+Lodi	44.49
+Whittier	44.48
+Torrance	43.97
+Las Cruces	43.95
+Bossier City	43.91
+Austin	43.41
+Cedar Hill	42.83
+San Clemente	42.55
+Carrollton	42.27
+Laguna Niguel	41.99
+Coppell	41.49
+Noblesville	40.94
+Ann Arbor	40.93
+Huntington Beach	40.05
+Summerville	39.55
+Pearland	39.41
+Longview	38.89
+Saint Charles	38.76
+Tigard	38.65
+Bellevue	37.06
+Lewiston	35.62
+Camarillo	35.53
+Woodbury	35.47
+Andover	35.46
+San Mateo	35.33
+Longmont	34.82
+Morristown	34.42
+Sheboygan	34.34
+Pembroke Pines	34.18
+Toledo	33.78
+Thomasville	33.4
+Woodland	33.39
+Greenwood	33.22
+Sterling Heights	33.06
+Pasco	32.17
+The Colony	31.66
+West Palm Beach	31.61
+Malden	31.18
+La Porte	31.01
+Round Rock	30.04
+Santa Maria	30.01
+Kent	29.7
+Delray Beach	29.05
+La Mesa	28.9
+Rockford	28.55
+West Allis	28.37
+Edinburg	27.81
+Escondido	27.75
+Owensboro	27.64
+East Point	27.32
+Chattanooga	27.2
+Frankfort	26.9
+Lindenhurst	26.63
+Redmond	25.51
+Redding	25.02
+Norman	24.91
+Saint Paul	24.89
+Lorain	24.82
+Daytona Beach	24.28
+Santa Barbara	23.71
+Passaic	23.41
+Palatine	23.26
+New Castle	23.09
+Greenville	23.02
+Mcallen	22.68
+Charlottesville	22.63
+Coral Gables	22.36
+Homestead	22.33
+Allentown	22.3
+Green Bay	22.15
+Clifton	22.12
+Chandler	21.99
+Tamarac	21.79
+Lake Charles	21.6
+Shelton	21.4
+Manteca	21.25
+Bozeman	20.81
+Santa Fe	20.68
+Hagerstown	20.59
+Texas City	20.22
+Rio Rancho	20.16
+Modesto	19.95
+Moorhead	19.83
+Kenner	19.8
+Norwich	19.74
+Medford	19.71
+Hoover	18.72
+Rogers	18.59
+Coral Springs	18.55
+Harlingen	18.12
+Texarkana	18.09
+La Quinta	18.06
+Lake Elsinore	17.75
+Palm Coast	17.65
+Fort Collins	17.05
+Royal Oak	16.96
+Sierra Vista	16.82
+Hesperia	16.79
+Port Arthur	16.79
+Elkhart	16.67
+Highland Park	16.46
+Garden City	15.81
+Murfreesboro	15.69
+Davis	15.55
+Pompano Beach	15.01
+Mansfield	14.52
+Burbank	14.43
+Waukesha	14.17
+Redwood City	14.14
+Yuma	14
+Glenview	13.86
+Englewood	13.75
+Nashua	13.52
+Yucaipa	13.21
+Grove City	13.19
+Saint Cloud	12.96
+Waterloo	11.82
+Atlantic City	11.68
+Clovis	11.64
+Broken Arrow	11.39
+Canton	11.08
+Manhattan	10.96
+Bedford	10.62
+College Station	10.39
+Greeley	10.36
+Appleton	10.35
+Clarksville	10.02
+Bartlett	10.01
+Danbury	9.89
+North Charleston	9.67
+Melbourne	9.56
+Antioch	9.33
+Hendersonville	9.19
+Elmhurst	8.94
+Grapevine	8.77
+Jefferson City	8.66
+Norfolk	8.02
+Grand Island	7.98
+Morgan Hill	7.85
+Bellingham	7.85
+New Brunswick	7.16
+Conroe	6.98
+Edmond	6.87
+Dubuque	6.86
+Bullhead City	6.72
+Twin Falls	6.64
+Aberdeen	6.63
+Portage	6.51
+Mount Pleasant	6.17
+Des Plaines	5.29
+Chapel Hill	4.73
+Iowa City	4.5
+Loveland	4.48
+Port Saint Lucie	4.45
+Apopka	4.01
+Montebello	3.9
+Rock Hill	3.79
+Baytown	3.63
+Eugene	3.5
+Bridgeton	3.44
+Marysville	3.31
+North Miami	3.08
+Goldsboro	3.06
+Port Orange	2.93
+Billings	2.69
+Margate	2.33
+Layton	2.33
+Gresham	2.15
+Keller	2.1
+Lehi	1.68
+Hillsboro	1.54
+Springdale	1.42
+Arlington Heights	1.23
+San Luis Obispo	1.19
+Oak Park	1.02
+Brownsville	0.590000000000001
+Jupiter	0.15
+Mesquite	-0.48
+Hickory	-1.1
+Altoona	-1.19
+Waco	-1.36
+Elyria	-1.4
+Pensacola	-1.48
+Ormond Beach	-1.97
+Naperville	-2.17
+Oswego	-2.4
+Tyler	-2.87
+Abilene	-3.76
+Evanston	-4
+Dublin	-4.03
+Mason	-4.23
+Bolingbrook	-4.66
+Plantation	-5.52
+Woodstock	-6.07
+Avondale	-7.34
+Asheville	-7.72
+Tinley Park	-8.92
+Hamilton	-9.39
+Missouri City	-9.56
+Deer Park	-10.39
+Fort Lauderdale	-11.26
+Sanford	-11.83
+Bethlehem	-11.84
+Tempe	-11.99
+Broomfield	-12.14
+Cuyahoga Falls	-12.58
+Odessa	-13.37
+Wilson	-14.33
+Knoxville	-14.43
+Romeoville	-14.77
+Lubbock	-14.86
+League City	-16.7
+Reading	-18.22
+Frisco	-18.8
+San Marcos	-19.34
+Boca Raton	-22.64
+Fort Worth	-23.57
+Irving	-27.01
+Parker	-30.65
+Pharr	-31.5
+El Paso	-31.64
+Garland	-32.38
+Commerce City	-32.93
+Peoria	-34.13
+Grand Prairie	-35.68
+Beaumont	-36.88
+Allen	-39.88
+Medina	-40.34
+Corpus Christi	-43.72
+Pueblo	-47.27
+Greensboro	-49.9
+York	-51.3
+Skokie	-53.88
+Cleveland	-56.38
+San Angelo	-58.56
+Bryan	-70.28
