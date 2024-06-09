@@ -1,0 +1,3525 @@
+{
+  "data":[{
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Huntsville",
+      "Profit": -104.57000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Peoria",
+      "Profit": -72.76999999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Bryan",
+      "Profit": -70.28
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Lancaster",
+      "Profit": -67.26
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Arlington",
+      "Profit": -60.53
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "San Angelo",
+      "Profit": -58.56
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Cleveland",
+      "Profit": -56.379999999999995
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Saint Charles",
+      "Profit": -56.06999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Skokie",
+      "Profit": -53.879999999999995
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "York",
+      "Profit": -51.3
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Greensboro",
+      "Profit": -49.900000000000006
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Pueblo",
+      "Profit": -47.27
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Corpus Christi",
+      "Profit": -43.72
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Medina",
+      "Profit": -40.33999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Allen",
+      "Profit": -39.879999999999995
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Beaumont",
+      "Profit": -36.88
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Grand Prairie",
+      "Profit": -35.68000000000001
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Commerce City",
+      "Profit": -32.93
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "La Porte",
+      "Profit": -32.53
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Garland",
+      "Profit": -32.38000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "El Paso",
+      "Profit": -31.64000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Pharr",
+      "Profit": -31.5
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Parker",
+      "Profit": -30.65
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Franklin",
+      "Profit": -29.520000000000003
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Irving",
+      "Profit": -27.009999999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Bloomington",
+      "Profit": -24.439999999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Fort Worth",
+      "Profit": -23.570000000000004
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Boca Raton",
+      "Profit": -22.64
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Troy",
+      "Profit": -21.980000000000004
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "San Marcos",
+      "Profit": -19.340000000000003
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Frisco",
+      "Profit": -18.8
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Reading",
+      "Profit": -18.220000000000002
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "League City",
+      "Profit": -16.699999999999996
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Lubbock",
+      "Profit": -14.860000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Romeoville",
+      "Profit": -14.77
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Knoxville",
+      "Profit": -14.430000000000007
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Wilson",
+      "Profit": -14.330000000000002
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Odessa",
+      "Profit": -13.370000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Woodstock",
+      "Profit": -12.81
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Decatur",
+      "Profit": -12.740000000000002
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Cuyahoga Falls",
+      "Profit": -12.58
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Broomfield",
+      "Profit": -12.14
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Tempe",
+      "Profit": -11.989999999999998
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Bethlehem",
+      "Profit": -11.84
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Sanford",
+      "Profit": -11.829999999999998
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Kent",
+      "Profit": -11.309999999999999
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Fort Lauderdale",
+      "Profit": -11.259999999999998
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Bristol",
+      "Profit": -10.799999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Deer Park",
+      "Profit": -10.39
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Missouri City",
+      "Profit": -9.56
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Springfield",
+      "Profit": -9.390000000000002
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Hamilton",
+      "Profit": -9.39
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Tinley Park",
+      "Profit": -8.92
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Asheville",
+      "Profit": -7.719999999999999
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Avondale",
+      "Profit": -7.340000000000001
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Plantation",
+      "Profit": -5.520000000000001
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Dublin",
+      "Profit": -5.410000000000004
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Bolingbrook",
+      "Profit": -4.660000000000002
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Mason",
+      "Profit": -4.23
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Evanston",
+      "Profit": -4
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Abilene",
+      "Profit": -3.76
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Tyler",
+      "Profit": -2.87
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Oswego",
+      "Profit": -2.3999999999999995
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Naperville",
+      "Profit": -2.1700000000000017
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Ormond Beach",
+      "Profit": -1.97
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Pensacola",
+      "Profit": -1.48
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Elyria",
+      "Profit": -1.4
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Waco",
+      "Profit": -1.3600000000000003
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Altoona",
+      "Profit": -1.19
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Hickory",
+      "Profit": -1.1
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Mesquite",
+      "Profit": -0.48
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Jupiter",
+      "Profit": 0.15
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Brownsville",
+      "Profit": 0.5900000000000013
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Oak Park",
+      "Profit": 1.02
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Luis Obispo",
+      "Profit": 1.19
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Arlington Heights",
+      "Profit": 1.23
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Dublin",
+      "Profit": 1.38
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Everett",
+      "Profit": 1.4
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Springdale",
+      "Profit": 1.42
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Auburn",
+      "Profit": 1.5
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Hillsboro",
+      "Profit": 1.54
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Lehi",
+      "Profit": 1.68
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Salem",
+      "Profit": 1.8900000000000041
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Keller",
+      "Profit": 2.1
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Gresham",
+      "Profit": 2.150000000000002
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Margate",
+      "Profit": 2.33
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Layton",
+      "Profit": 2.33
+    },
+    {
+      "Region": "West",
+      "State": "Montana",
+      "City": "Billings",
+      "Profit": 2.69
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Port Orange",
+      "Profit": 2.93
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Goldsboro",
+      "Profit": 3.06
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "North Miami",
+      "Profit": 3.0799999999999996
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Marysville",
+      "Profit": 3.31
+    },
+    {
+      "Region": "West",
+      "State": "Idaho",
+      "City": "Lewiston",
+      "Profit": 3.35
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Bridgeton",
+      "Profit": 3.44
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Eugene",
+      "Profit": 3.5
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Baytown",
+      "Profit": 3.63
+    },
+    {
+      "Region": "South",
+      "State": "South Carolina",
+      "City": "Rock Hill",
+      "Profit": 3.79
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Montebello",
+      "Profit": 3.9
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Apopka",
+      "Profit": 4.010000000000002
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Port Saint Lucie",
+      "Profit": 4.449999999999999
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Loveland",
+      "Profit": 4.48
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Iowa City",
+      "Profit": 4.5
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Chapel Hill",
+      "Profit": 4.73
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Redmond",
+      "Profit": 4.780000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Des Plaines",
+      "Profit": 5.289999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Mount Pleasant",
+      "Profit": 6.17
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Portage",
+      "Profit": 6.51
+    },
+    {
+      "Region": "Central",
+      "State": "South Dakota",
+      "City": "Aberdeen",
+      "Profit": 6.63
+    },
+    {
+      "Region": "West",
+      "State": "Idaho",
+      "City": "Twin Falls",
+      "Profit": 6.64
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Bullhead City",
+      "Profit": 6.720000000000001
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Woodstock",
+      "Profit": 6.74
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Dubuque",
+      "Profit": 6.86
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Edmond",
+      "Profit": 6.87
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Conroe",
+      "Profit": 6.98
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "New Brunswick",
+      "Profit": 7.16
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Wheeling",
+      "Profit": 7.42
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Bellingham",
+      "Profit": 7.85
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Morgan Hill",
+      "Profit": 7.8500000000000005
+    },
+    {
+      "Region": "Central",
+      "State": "Nebraska",
+      "City": "Grand Island",
+      "Profit": 7.98
+    },
+    {
+      "Region": "Central",
+      "State": "Nebraska",
+      "City": "Norfolk",
+      "Profit": 8.02
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Jefferson City",
+      "Profit": 8.66
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Grapevine",
+      "Profit": 8.77
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Elmhurst",
+      "Profit": 8.94
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Apple Valley",
+      "Profit": 8.98
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Hendersonville",
+      "Profit": 9.189999999999998
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Antioch",
+      "Profit": 9.33
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Melbourne",
+      "Profit": 9.56
+    },
+    {
+      "Region": "South",
+      "State": "South Carolina",
+      "City": "North Charleston",
+      "Profit": 9.67
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Danbury",
+      "Profit": 9.89
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Bartlett",
+      "Profit": 10.01
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Florence",
+      "Profit": 10.02
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Clarksville",
+      "Profit": 10.02
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Appleton",
+      "Profit": 10.35
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Greeley",
+      "Profit": 10.36
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "College Station",
+      "Profit": 10.39
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Auburn",
+      "Profit": 10.5
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Bedford",
+      "Profit": 10.619999999999997
+    },
+    {
+      "Region": "Central",
+      "State": "Kansas",
+      "City": "Manhattan",
+      "Profit": 10.96
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Canton",
+      "Profit": 11.08
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Broken Arrow",
+      "Profit": 11.389999999999999
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Clovis",
+      "Profit": 11.639999999999999
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Atlantic City",
+      "Profit": 11.68
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Waterloo",
+      "Profit": 11.82
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Saint Cloud",
+      "Profit": 12.96
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Grove City",
+      "Profit": 13.190000000000001
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Yucaipa",
+      "Profit": 13.21
+    },
+    {
+      "Region": "East",
+      "State": "New Hampshire",
+      "City": "Nashua",
+      "Profit": 13.52
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Englewood",
+      "Profit": 13.75
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Glenview",
+      "Profit": 13.86
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Yuma",
+      "Profit": 14
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Redwood City",
+      "Profit": 14.14
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Waukesha",
+      "Profit": 14.17
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Burbank",
+      "Profit": 14.43
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Mansfield",
+      "Profit": 14.52
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Smyrna",
+      "Profit": 14.62
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Jackson",
+      "Profit": 14.930000000000003
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Pompano Beach",
+      "Profit": 15.010000000000002
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Davis",
+      "Profit": 15.55
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Murfreesboro",
+      "Profit": 15.690000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Kansas",
+      "City": "Garden City",
+      "Profit": 15.810000000000002
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Highland Park",
+      "Profit": 16.46
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Elkhart",
+      "Profit": 16.67
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Hesperia",
+      "Profit": 16.79
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Port Arthur",
+      "Profit": 16.79
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Sierra Vista",
+      "Profit": 16.82
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Royal Oak",
+      "Profit": 16.96
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Fort Collins",
+      "Profit": 17.050000000000004
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Palm Coast",
+      "Profit": 17.65
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Freeport",
+      "Profit": 17.729999999999997
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Lake Elsinore",
+      "Profit": 17.75
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "La Quinta",
+      "Profit": 18.06
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Texarkana",
+      "Profit": 18.09
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Harlingen",
+      "Profit": 18.12
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Coral Springs",
+      "Profit": 18.549999999999997
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Rogers",
+      "Profit": 18.59
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Hoover",
+      "Profit": 18.72
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Murray",
+      "Profit": 19.66
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Medford",
+      "Profit": 19.71
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Norwich",
+      "Profit": 19.740000000000002
+    },
+    {
+      "Region": "South",
+      "State": "Louisiana",
+      "City": "Kenner",
+      "Profit": 19.799999999999997
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Moorhead",
+      "Profit": 19.83
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Modesto",
+      "Profit": 19.95
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Rio Rancho",
+      "Profit": 20.16
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Texas City",
+      "Profit": 20.22
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Concord",
+      "Profit": 20.480000000000004
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Hagerstown",
+      "Profit": 20.59
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Santa Fe",
+      "Profit": 20.68
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Redmond",
+      "Profit": 20.73
+    },
+    {
+      "Region": "West",
+      "State": "Montana",
+      "City": "Bozeman",
+      "Profit": 20.81
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Manteca",
+      "Profit": 21.25
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Shelton",
+      "Profit": 21.4
+    },
+    {
+      "Region": "South",
+      "State": "Louisiana",
+      "City": "Lake Charles",
+      "Profit": 21.6
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Tamarac",
+      "Profit": 21.79
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Chandler",
+      "Profit": 21.990000000000002
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Clifton",
+      "Profit": 22.12
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Green Bay",
+      "Profit": 22.15
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Allentown",
+      "Profit": 22.3
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Homestead",
+      "Profit": 22.33
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Coral Gables",
+      "Profit": 22.360000000000003
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Charlottesville",
+      "Profit": 22.630000000000003
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Mcallen",
+      "Profit": 22.679999999999996
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Greenville",
+      "Profit": 23.02
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "New Castle",
+      "Profit": 23.09
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Burlington",
+      "Profit": 23.21
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Palatine",
+      "Profit": 23.26
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Passaic",
+      "Profit": 23.409999999999997
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Santa Barbara",
+      "Profit": 23.709999999999997
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Daytona Beach",
+      "Profit": 24.28
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Lorain",
+      "Profit": 24.82
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Saint Paul",
+      "Profit": 24.89
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Norman",
+      "Profit": 24.91
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Redding",
+      "Profit": 25.02
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Lindenhurst",
+      "Profit": 26.63
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Burlington",
+      "Profit": 26.67
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Frankfort",
+      "Profit": 26.9
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Chattanooga",
+      "Profit": 27.199999999999996
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "East Point",
+      "Profit": 27.32
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Owensboro",
+      "Profit": 27.64
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Escondido",
+      "Profit": 27.75
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Edinburg",
+      "Profit": 27.81
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "West Allis",
+      "Profit": 28.369999999999997
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Rockford",
+      "Profit": 28.549999999999997
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "La Mesa",
+      "Profit": 28.9
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Delray Beach",
+      "Profit": 29.05
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Santa Maria",
+      "Profit": 30.01
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Round Rock",
+      "Profit": 30.04
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Lakewood",
+      "Profit": 30.22
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Malden",
+      "Profit": 31.18
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "West Palm Beach",
+      "Profit": 31.61
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "The Colony",
+      "Profit": 31.66
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Pasco",
+      "Profit": 32.17
+    },
+    {
+      "Region": "East",
+      "State": "Maine",
+      "City": "Lewiston",
+      "Profit": 32.269999999999996
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Sterling Heights",
+      "Profit": 33.06
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Greenwood",
+      "Profit": 33.22
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Woodland",
+      "Profit": 33.39
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Thomasville",
+      "Profit": 33.4
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Toledo",
+      "Profit": 33.78000000000001
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Pembroke Pines",
+      "Profit": 34.18000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Sheboygan",
+      "Profit": 34.34
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Morristown",
+      "Profit": 34.42
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Longmont",
+      "Profit": 34.82
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Mateo",
+      "Profit": 35.33
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Andover",
+      "Profit": 35.459999999999994
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Woodbury",
+      "Profit": 35.47
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Camarillo",
+      "Profit": 35.529999999999994
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Murray",
+      "Profit": 37.06
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Bellevue",
+      "Profit": 37.06
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Peoria",
+      "Profit": 38.64
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Tigard",
+      "Profit": 38.650000000000006
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Longview",
+      "Profit": 38.89
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Pearland",
+      "Profit": 39.41
+    },
+    {
+      "Region": "South",
+      "State": "South Carolina",
+      "City": "Summerville",
+      "Profit": 39.55
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Huntington Beach",
+      "Profit": 40.05
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Ann Arbor",
+      "Profit": 40.93
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Noblesville",
+      "Profit": 40.94
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Kent",
+      "Profit": 41.01
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Coppell",
+      "Profit": 41.49
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Laguna Niguel",
+      "Profit": 41.99
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Carrollton",
+      "Profit": 42.269999999999996
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Clemente",
+      "Profit": 42.550000000000004
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Cedar Hill",
+      "Profit": 42.83
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Austin",
+      "Profit": 43.41
+    },
+    {
+      "Region": "East",
+      "State": "West Virginia",
+      "City": "Wheeling",
+      "Profit": 43.440000000000005
+    },
+    {
+      "Region": "South",
+      "State": "Louisiana",
+      "City": "Bossier City",
+      "Profit": 43.91
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Las Cruces",
+      "Profit": 43.95
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Torrance",
+      "Profit": 43.97
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Whittier",
+      "Profit": 44.48
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Lodi",
+      "Profit": 44.489999999999995
+    },
+    {
+      "Region": "Central",
+      "State": "South Dakota",
+      "City": "Rapid City",
+      "Profit": 44.769999999999996
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Taylor",
+      "Profit": 44.87
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Conway",
+      "Profit": 45.29
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Tampa",
+      "Profit": 45.78000000000001
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Milford",
+      "Profit": 45.900000000000006
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Laurel",
+      "Profit": 46.18
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Logan",
+      "Profit": 46.97
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Kirkwood",
+      "Profit": 47.13
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Coachella",
+      "Profit": 47.18
+    },
+    {
+      "Region": "West",
+      "State": "Nevada",
+      "City": "Sparks",
+      "Profit": 48.81
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Quincy",
+      "Profit": 49.1
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Linden",
+      "Profit": 49.6
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Aurora",
+      "Profit": 50.08
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Revere",
+      "Profit": 50.120000000000005
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Deltona",
+      "Profit": 50.13999999999999
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "New Bedford",
+      "Profit": 50.489999999999995
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Harrisonburg",
+      "Profit": 50.6
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Boynton Beach",
+      "Profit": 50.64999999999999
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Tuscaloosa",
+      "Profit": 51.010000000000005
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Thornton",
+      "Profit": 51.25000000000001
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Hialeah",
+      "Profit": 51.35999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Haltom City",
+      "Profit": 51.96
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Parma",
+      "Profit": 52.13
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Gladstone",
+      "Profit": 52.59
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "El Cajon",
+      "Profit": 52.69
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Carol Stream",
+      "Profit": 52.93
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Warner Robins",
+      "Profit": 53.69
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Maple Grove",
+      "Profit": 53.81999999999999
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Gastonia",
+      "Profit": 53.97
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Cary",
+      "Profit": 54.04
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Rochester Hills",
+      "Profit": 54.33
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Citrus Heights",
+      "Profit": 54.34
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Farmington",
+      "Profit": 54.79
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Cottage Grove",
+      "Profit": 54.800000000000004
+    },
+    {
+      "Region": "West",
+      "State": "Montana",
+      "City": "Great Falls",
+      "Profit": 55.1
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Fayetteville",
+      "Profit": 55.22000000000001
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Chula Vista",
+      "Profit": 55.91
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Pleasant Grove",
+      "Profit": 56.089999999999996
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Fairfield",
+      "Profit": 56.76
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Colorado Springs",
+      "Profit": 56.89
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Coon Rapids",
+      "Profit": 57.5
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Jamestown",
+      "Profit": 57.59
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Urbandale",
+      "Profit": 57.72
+    },
+    {
+      "Region": "Central",
+      "State": "Kansas",
+      "City": "Olathe",
+      "Profit": 58.03999999999999
+    },
+    {
+      "Region": "West",
+      "State": "Idaho",
+      "City": "Caldwell",
+      "Profit": 58.7
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Niagara Falls",
+      "Profit": 59.24
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Stockton",
+      "Profit": 59.64
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Arvada",
+      "Profit": 59.849999999999994
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Holyoke",
+      "Profit": 60.39
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Westfield",
+      "Profit": 61.38
+    },
+    {
+      "Region": "East",
+      "State": "Maine",
+      "City": "Bangor",
+      "Profit": 61.47
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Marion",
+      "Profit": 61.470000000000006
+    },
+    {
+      "Region": "West",
+      "State": "Idaho",
+      "City": "Boise",
+      "Profit": 61.769999999999996
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Hot Springs",
+      "Profit": 62.08
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Vineland",
+      "Profit": 62.25999999999999
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Pico Rivera",
+      "Profit": 62.74
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Vallejo",
+      "Profit": 63.239999999999995
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "La Porte",
+      "Profit": 63.540000000000006
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Gabriel",
+      "Profit": 63.68
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Wilmington",
+      "Profit": 63.899999999999984
+    },
+    {
+      "Region": "South",
+      "State": "Mississippi",
+      "City": "Hattiesburg",
+      "Profit": 64
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Mishawaka",
+      "Profit": 64.2
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Akron",
+      "Profit": 64.66
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Mission Viejo",
+      "Profit": 65.16
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Carlsbad",
+      "Profit": 65.52000000000001
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Orlando",
+      "Profit": 65.74000000000001
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Apple Valley",
+      "Profit": 65.83
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Mentor",
+      "Profit": 66.03999999999999
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Orange",
+      "Profit": 66.57000000000001
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Gilbert",
+      "Profit": 66.60999999999999
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Beverly",
+      "Profit": 66.63
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Holland",
+      "Profit": 66.66
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Bowling Green",
+      "Profit": 67.12
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Mount Vernon",
+      "Profit": 67.28
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Moreno Valley",
+      "Profit": 67.33000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Pasadena",
+      "Profit": 67.58000000000001
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Marlborough",
+      "Profit": 67.60000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Orland Park",
+      "Profit": 67.99
+    },
+    {
+      "Region": "Central",
+      "State": "North Dakota",
+      "City": "Fargo",
+      "Profit": 68.05
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Muskogee",
+      "Profit": 68.22
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Lincoln Park",
+      "Profit": 68.37
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Dearborn",
+      "Profit": 70.05
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Pine Bluff",
+      "Profit": 70.2
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Chico",
+      "Profit": 70.24
+    },
+    {
+      "Region": "South",
+      "State": "South Carolina",
+      "City": "Florence",
+      "Profit": 70.38
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Roseville",
+      "Profit": 70.43
+    },
+    {
+      "Region": "East",
+      "State": "Rhode Island",
+      "City": "Warwick",
+      "Profit": 70.57
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Encinitas",
+      "Profit": 71.06
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Amarillo",
+      "Profit": 72.53999999999996
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Lake Forest",
+      "Profit": 72.56
+    },
+    {
+      "Region": "West",
+      "State": "Nevada",
+      "City": "Henderson",
+      "Profit": 72.72
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "San Antonio",
+      "Profit": 73.09000000000003
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "New Albany",
+      "Profit": 73.35
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Park Ridge",
+      "Profit": 73.61
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Concord",
+      "Profit": 73.63
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Rancho Cucamonga",
+      "Profit": 73.74
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Salinas",
+      "Profit": 73.9
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "East Orange",
+      "Profit": 74.19
+    },
+    {
+      "Region": "West",
+      "State": "Montana",
+      "City": "Helena",
+      "Profit": 74.62
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Bowling Green",
+      "Profit": 74.95000000000002
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Johnson City",
+      "Profit": 74.97
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Newport News",
+      "Profit": 75.06
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Vancouver",
+      "Profit": 75.46000000000001
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Danville",
+      "Profit": 75.82
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Glendale",
+      "Profit": 75.84999999999998
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Santa Clara",
+      "Profit": 75.99
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Saginaw",
+      "Profit": 77.17
+    },
+    {
+      "Region": "South",
+      "State": "Mississippi",
+      "City": "Gulfport",
+      "Profit": 77.58
+    },
+    {
+      "Region": "East",
+      "State": "Rhode Island",
+      "City": "Woonsocket",
+      "Profit": 78.67
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Bayonne",
+      "Profit": 79.41
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Lancaster",
+      "Profit": 79.44000000000001
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Leominster",
+      "Profit": 79.50000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Lawton",
+      "Profit": 79.78999999999999
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Cambridge",
+      "Profit": 80.13
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Lafayette",
+      "Profit": 80.18999999999998
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Renton",
+      "Profit": 81.42999999999999
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Redondo Beach",
+      "Profit": 82.36
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Lebanon",
+      "Profit": 83.81
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Eau Claire",
+      "Profit": 86.78
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Eagan",
+      "Profit": 87.03
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Visalia",
+      "Profit": 88.05
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Roseville",
+      "Profit": 88.15
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Monroe",
+      "Profit": 88.45
+    },
+    {
+      "Region": "West",
+      "State": "Idaho",
+      "City": "Pocatello",
+      "Profit": 88.96
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Watertown",
+      "Profit": 89.31
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Miramar",
+      "Profit": 89.92
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Wausau",
+      "Profit": 90.42999999999999
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Lancaster",
+      "Profit": 91.26000000000003
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Chester",
+      "Profit": 91.31000000000002
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Plano",
+      "Profit": 92.25999999999999
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Draper",
+      "Profit": 92.73
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Sacramento",
+      "Profit": 93
+    },
+    {
+      "Region": "East",
+      "State": "District of Columbia",
+      "City": "Washington",
+      "Profit": 94.14999999999999
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Olympia",
+      "Profit": 94.34
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Saint Charles",
+      "Profit": 94.83
+    },
+    {
+      "Region": "West",
+      "State": "Idaho",
+      "City": "Meridian",
+      "Profit": 95.21
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Lansing",
+      "Profit": 95.53999999999999
+    },
+    {
+      "Region": "South",
+      "State": "Mississippi",
+      "City": "Southaven",
+      "Profit": 95.72999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Laredo",
+      "Profit": 95.80999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Kenosha",
+      "Profit": 95.87
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Plainfield",
+      "Profit": 96.53
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "La Crosse",
+      "Profit": 97.09
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Tallahassee",
+      "Profit": 97.99999999999997
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Santa Ana",
+      "Profit": 98.08
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Des Moines",
+      "Profit": 98.36
+    },
+    {
+      "Region": "Central",
+      "State": "South Dakota",
+      "City": "Sioux Falls",
+      "Profit": 98.44000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Saint Louis",
+      "Profit": 98.56
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Thousand Oaks",
+      "Profit": 99.93
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Temecula",
+      "Profit": 101.89
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Meriden",
+      "Profit": 102.13000000000001
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Spokane",
+      "Profit": 102.28
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "West Jordan",
+      "Profit": 102.67
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Superior",
+      "Profit": 102.69
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Cincinnati",
+      "Profit": 105.34
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Gaithersburg",
+      "Profit": 105.53999999999999
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Lakeland",
+      "Profit": 106.74
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Freeport",
+      "Profit": 107.37
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Jonesboro",
+      "Profit": 107.41999999999999
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Sunnyvale",
+      "Profit": 107.50999999999999
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Hollywood",
+      "Profit": 108.19999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Kansas",
+      "City": "Overland Park",
+      "Profit": 109.83
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Utica",
+      "Profit": 110.16999999999999
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Bernardino",
+      "Profit": 110.17000000000002
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Provo",
+      "Profit": 111.53999999999999
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Fairfield",
+      "Profit": 112.12
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Midland",
+      "Profit": 113.78999999999999
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Waterbury",
+      "Profit": 114.31
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Bristol",
+      "Profit": 114.55
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Louisville",
+      "Profit": 114.56000000000002
+    },
+    {
+      "Region": "West",
+      "State": "Nevada",
+      "City": "Reno",
+      "Profit": 115.05000000000001
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Covington",
+      "Profit": 115.11
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Franklin",
+      "Profit": 115.66
+    },
+    {
+      "Region": "East",
+      "State": "Delaware",
+      "City": "Dover",
+      "Profit": 116.11999999999998
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Durham",
+      "Profit": 116.88
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Oceanside",
+      "Profit": 117.51
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "New Rochelle",
+      "Profit": 118.30000000000001
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Tucson",
+      "Profit": 118.94999999999999
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Scottsdale",
+      "Profit": 119.53999999999998
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Roseville",
+      "Profit": 119.6
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Manchester",
+      "Profit": 119.61999999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Dearborn Heights",
+      "Profit": 120.19
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Aurora",
+      "Profit": 122.72999999999999
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Riverside",
+      "Profit": 123.11999999999999
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Oxnard",
+      "Profit": 123.87
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Montgomery",
+      "Profit": 126.61999999999999
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Perth Amboy",
+      "Profit": 129.98000000000002
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Buffalo",
+      "Profit": 130.53
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Madison",
+      "Profit": 131.32
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Lowell",
+      "Profit": 131.34
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Rockville",
+      "Profit": 133.21
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Grand Rapids",
+      "Profit": 133.26000000000002
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Orem",
+      "Profit": 133.67999999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Columbia",
+      "Profit": 134.52
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Waynesboro",
+      "Profit": 135.96
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Pomona",
+      "Profit": 136.20999999999998
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Suffolk",
+      "Profit": 136.34
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Georgetown",
+      "Profit": 136.58
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Auburn",
+      "Profit": 136.74
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Mobile",
+      "Profit": 138.27
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Fairfield",
+      "Profit": 138.69
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Marietta",
+      "Profit": 140.01
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Lakewood",
+      "Profit": 141.14
+    },
+    {
+      "Region": "Central",
+      "State": "Nebraska",
+      "City": "Fremont",
+      "Profit": 141.93
+    },
+    {
+      "Region": "West",
+      "State": "Utah",
+      "City": "Salt Lake City",
+      "Profit": 142.42
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Columbia",
+      "Profit": 142.88
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Des Moines",
+      "Profit": 144.45
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Macon",
+      "Profit": 144.86
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Hempstead",
+      "Profit": 146.40999999999997
+    },
+    {
+      "Region": "Central",
+      "State": "Illinois",
+      "City": "Chicago",
+      "Profit": 149.30999999999986
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Charlotte",
+      "Profit": 149.99
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Sandy Springs",
+      "Profit": 153.45999999999998
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Rome",
+      "Profit": 154.22
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Hackensack",
+      "Profit": 154.24
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "South Bend",
+      "Profit": 154.88
+    },
+    {
+      "Region": "East",
+      "State": "Connecticut",
+      "City": "Middletown",
+      "Profit": 157.61
+    },
+    {
+      "Region": "East",
+      "State": "Vermont",
+      "City": "Burlington",
+      "Profit": 157.67
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Memphis",
+      "Profit": 157.92
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Saint Petersburg",
+      "Profit": 158.45999999999998
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Florence",
+      "Profit": 159.44
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Newark",
+      "Profit": 160.67999999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Westland",
+      "Profit": 160.79000000000002
+    },
+    {
+      "Region": "Central",
+      "State": "Iowa",
+      "City": "Marion",
+      "Profit": 164.28
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Raleigh",
+      "Profit": 165.05
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Miami",
+      "Profit": 172.02
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Huntsville",
+      "Profit": 175.31
+    },
+    {
+      "Region": "East",
+      "State": "New Hampshire",
+      "City": "Dover",
+      "Profit": 177.39000000000001
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Bloomington",
+      "Profit": 182.77000000000004
+    },
+    {
+      "Region": "South",
+      "State": "Tennessee",
+      "City": "Nashville",
+      "Profit": 183.14999999999998
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Redlands",
+      "Profit": 183.89
+    },
+    {
+      "Region": "East",
+      "State": "Rhode Island",
+      "City": "Cranston",
+      "Profit": 184.19
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Brentwood",
+      "Profit": 184.45
+    },
+    {
+      "Region": "South",
+      "State": "Alabama",
+      "City": "Decatur",
+      "Profit": 184.7
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Athens",
+      "Profit": 185.35000000000002
+    },
+    {
+      "Region": "Central",
+      "State": "Kansas",
+      "City": "Wichita",
+      "Profit": 186.76999999999998
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Bakersfield",
+      "Profit": 187.93
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Oceanside",
+      "Profit": 191.87000000000003
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Phoenix",
+      "Profit": 194.32000000000002
+    },
+    {
+      "Region": "West",
+      "State": "New Mexico",
+      "City": "Albuquerque",
+      "Profit": 199.82999999999998
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Belleville",
+      "Profit": 200.83000000000004
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Lawrence",
+      "Profit": 201.39
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Quincy",
+      "Profit": 204.79
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Inglewood",
+      "Profit": 206.37
+    },
+    {
+      "Region": "South",
+      "State": "Louisiana",
+      "City": "Monroe",
+      "Profit": 206.99999999999997
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Troy",
+      "Profit": 209.01
+    },
+    {
+      "Region": "South",
+      "State": "Florida",
+      "City": "Jacksonville",
+      "Profit": 210.77999999999997
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Minneapolis",
+      "Profit": 210.79999999999998
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Yonkers",
+      "Profit": 212.89
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Costa Mesa",
+      "Profit": 215.36999999999995
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Pasadena",
+      "Profit": 218.94
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Fayetteville",
+      "Profit": 220.94
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Paterson",
+      "Profit": 229.47
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Hampton",
+      "Profit": 231.77
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Westminster",
+      "Profit": 234.04
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Alexandria",
+      "Profit": 235.34000000000003
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Edmonds",
+      "Profit": 236.22
+    },
+    {
+      "Region": "West",
+      "State": "Arizona",
+      "City": "Mesa",
+      "Profit": 237.62999999999997
+    },
+    {
+      "Region": "West",
+      "State": "Nevada",
+      "City": "North Las Vegas",
+      "Profit": 243.45
+    },
+    {
+      "Region": "East",
+      "State": "Rhode Island",
+      "City": "Providence",
+      "Profit": 245.51999999999998
+    },
+    {
+      "Region": "East",
+      "State": "Delaware",
+      "City": "Wilmington",
+      "Profit": 245.65
+    },
+    {
+      "Region": "East",
+      "State": "New Jersey",
+      "City": "Lakewood",
+      "Profit": 245.66000000000003
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Salem",
+      "Profit": 246.21
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Long Beach",
+      "Profit": 248.86000000000004
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Roswell",
+      "Profit": 257.34000000000003
+    },
+    {
+      "Region": "West",
+      "State": "Nevada",
+      "City": "Las Vegas",
+      "Profit": 262.25
+    },
+    {
+      "Region": "South",
+      "State": "Louisiana",
+      "City": "Lafayette",
+      "Profit": 267.68999999999994
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Lakeville",
+      "Profit": 269.99
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Smyrna",
+      "Profit": 270.49999999999994
+    },
+    {
+      "Region": "Central",
+      "State": "Minnesota",
+      "City": "Rochester",
+      "Profit": 279.02000000000004
+    },
+    {
+      "Region": "Central",
+      "State": "Nebraska",
+      "City": "Omaha",
+      "Profit": 287.59000000000003
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Columbia",
+      "Profit": 288.24
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Trenton",
+      "Profit": 293.09999999999997
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Rochester",
+      "Profit": 294.06000000000006
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Everett",
+      "Profit": 311.45
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Chesapeake",
+      "Profit": 314.15
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Virginia Beach",
+      "Profit": 315.24
+    },
+    {
+      "Region": "South",
+      "State": "North Carolina",
+      "City": "Jacksonville",
+      "Profit": 321.42999999999995
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Dallas",
+      "Profit": 322.7499999999999
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Franklin",
+      "Profit": 326.01000000000005
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Portland",
+      "Profit": 329.35
+    },
+    {
+      "Region": "West",
+      "State": "Colorado",
+      "City": "Denver",
+      "Profit": 329.71000000000004
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Oakland",
+      "Profit": 332.66
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Tulsa",
+      "Profit": 336
+    },
+    {
+      "Region": "East",
+      "State": "Massachusetts",
+      "City": "Lawrence",
+      "Profit": 336.4200000000001
+    },
+    {
+      "Region": "East",
+      "State": "New Hampshire",
+      "City": "Concord",
+      "Profit": 353.74
+    },
+    {
+      "Region": "South",
+      "State": "Arkansas",
+      "City": "Little Rock",
+      "Profit": 363.57000000000005
+    },
+    {
+      "Region": "East",
+      "State": "Ohio",
+      "City": "Columbus",
+      "Profit": 370.1200000000001
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Fresno",
+      "Profit": 370.14
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Indianapolis",
+      "Profit": 374.63
+    },
+    {
+      "Region": "Central",
+      "State": "Oklahoma",
+      "City": "Oklahoma City",
+      "Profit": 392.73
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Anaheim",
+      "Profit": 403.1
+    },
+    {
+      "Region": "West",
+      "State": "Oregon",
+      "City": "Springfield",
+      "Profit": 410.33000000000004
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Atlanta",
+      "Profit": 421.2199999999999
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Richmond",
+      "Profit": 433.86
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Columbus",
+      "Profit": 433.94
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "Long Beach",
+      "Profit": 443.14
+    },
+    {
+      "Region": "Central",
+      "State": "Indiana",
+      "City": "Richmond",
+      "Profit": 452.96
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Clinton",
+      "Profit": 477.98999999999995
+    },
+    {
+      "Region": "South",
+      "State": "Mississippi",
+      "City": "Jackson",
+      "Profit": 479.55
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Arlington",
+      "Profit": 505.3500000000001
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Richmond",
+      "Profit": 509.33000000000004
+    },
+    {
+      "Region": "South",
+      "State": "South Carolina",
+      "City": "Columbia",
+      "Profit": 520.21
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Jackson",
+      "Profit": 545.32
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Louisville",
+      "Profit": 588.7099999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Wisconsin",
+      "City": "Milwaukee",
+      "Profit": 589.7699999999999
+    },
+    {
+      "Region": "South",
+      "State": "Kentucky",
+      "City": "Henderson",
+      "Profit": 592.1200000000001
+    },
+    {
+      "Region": "South",
+      "State": "Virginia",
+      "City": "Springfield",
+      "Profit": 625.69
+    },
+    {
+      "Region": "East",
+      "State": "Maryland",
+      "City": "Baltimore",
+      "Profit": 627.28
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Jose",
+      "Profit": 641.37
+    },
+    {
+      "Region": "East",
+      "State": "Pennsylvania",
+      "City": "Philadelphia",
+      "Profit": 644.2499999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Missouri",
+      "City": "Springfield",
+      "Profit": 645.9399999999999
+    },
+    {
+      "Region": "South",
+      "State": "Georgia",
+      "City": "Columbus",
+      "Profit": 915.4200000000001
+    },
+    {
+      "Region": "East",
+      "State": "Delaware",
+      "City": "Newark",
+      "Profit": 1018.2399999999999
+    },
+    {
+      "Region": "Central",
+      "State": "Texas",
+      "City": "Houston",
+      "Profit": 1034.4399999999998
+    },
+    {
+      "Region": "Central",
+      "State": "Michigan",
+      "City": "Detroit",
+      "Profit": 1951.19
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Diego",
+      "Profit": 2177.7599999999998
+    },
+    {
+      "Region": "West",
+      "State": "Washington",
+      "City": "Seattle",
+      "Profit": 5407.140000000002
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "San Francisco",
+      "Profit": 5813.040000000005
+    },
+    {
+      "Region": "West",
+      "State": "California",
+      "City": "Los Angeles",
+      "Profit": 8809.940000000004
+    },
+    {
+      "Region": "East",
+      "State": "New York",
+      "City": "New York City",
+      "Profit": 11068.66999999999
+    }
+  ]
+}

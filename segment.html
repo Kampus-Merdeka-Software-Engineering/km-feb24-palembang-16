@@ -37,7 +37,12 @@
                 Home
               </a>
             </li>
-            
+            <li>
+              <a href="dashboard.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
+                Dashboar
+              </a>
+            </li>
             <li>
               <a href="products.html" class="nav-link text-dark">
                 <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
@@ -261,7 +266,7 @@
   </script>
   <script>
     var xmlhttp = new XMLHttpRequest();
-    var url = "/WEB/Superstore_last/Ajax/segmentbelirata.json";
+    var url = "Ajax/segmentbelirata.json";
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){

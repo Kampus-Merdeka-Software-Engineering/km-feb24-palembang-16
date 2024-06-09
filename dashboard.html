@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dasboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- <link href="/WEB/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" /> -->
+
+    <!--Dashboard-->
+   
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/sidebars.css" />
+
+    <!-- chart.js -->
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+
+    <!-- simple datables -->
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+    <!-- Chart js -->
+  </head>
+  <body>
+    <div class="w-100">
+      <div class="d-flex">
+        <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 280px; height: 100vh; background: linear-gradient(180deg, rgba(148, 137, 121, 1) 0%, rgba(191, 178, 158, 1) 51.499998569488525%, rgba(223, 208, 184, 1) 100%)">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
+            <span class="fs-4"><img src="img/Logo.png" alt="logoku" /></span>
+          </a>
+          <hr />
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home" /></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="dashboard.html" class="nav-link active" aria-current="page">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2" /></svg>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="state.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table" /></svg>
+                State
+              </a>
+            </li>
+            <li>
+              <a href="category.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle" /></svg>
+                Category
+              </a>
+            </li>
+            <li>
+              <a href="segment.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle" /></svg>
+                Segment
+              </a>
+            </li>
+            <li>
+              <a href="city.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle" /></svg>
+                City
+              </a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+        <div class="w-100">
+          <div class="my-3 mx-3">
+            <h1>Overview</h1>
+            <div class="d-flex" style="justify-content: center;">
+              <div class="col-2 card mx-2">
+                <div class="card-body" style="background: #dfd0b8">
+                  <h5 class="card-title text-primary" style="text-align: center">Total Profit</h5>
+                  <div>
+                    <div id="total-profit"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 card mx-2">
+                <div class="card-body" style="background: #dfd0b8">
+                  <h5 class="card-title text-primary" style="text-align: center">Total Sales</h5>
+                  <div>
+                    <div id="total-sales"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 card mx-2">
+                <div class="card-body" style="background: #dfd0b8">
+                  <h5 class="card-title text-primary" style="text-align: center">Total Quantity</h5>
+                  <div>
+                    <div id="total-quantity"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 card mx-2">
+                <div class="card-body" style="background: #dfd0b8">
+                  <h5 class="card-title text-primary" style="text-align: center">Best State</h5>
+                  <div>
+                    <div id="best-state"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="d-flex" style="justify-content: center;">
+              <div class="profitByYear-chart">
+                <div class="card-body" style="background: #dfd0b8">
+                  <h5 class="card-title text-primary" style="text-align: center">Profit by Year</h5>
+                  <div>
+                    <canvas id="profitByYear-chart" style="width: 1024px; height: 300px;"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!--Script Dashboard-->
+
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="js/dashboard.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+ 
+    const ctx = document.getElementById("profitByYear-chart");
+    fetch("json/Profit_by_year.json")
+      .then((Response) => Response.json())
+      .then((data) => {
+        const profitYear = data;
+        const Year = profitYear.map((item) => {
+          return item.Year;
+        });
+        const Profit_per_year = profitYear.map((item) => {
+          return item.Profit_per_year;
+        });
+        new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: Year,
+            datasets: [
+              {
+                label: "Profit",
+                data: Profit_per_year,
+                borderWidth: 2,
+                borderColor: "#153448",
+                // backgroundColor: "red",
+                // borderColor: "rgb(255, 99, 132)",
+              },
+            ],
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true,
+              },
+            },
+          },
+        });
+      });
+  </script>
+  <script>
+    const totalProfit = document.getElementById("total-profit");
+    fetch("json/Profit_by_year.json")
+  .then(response => response.json())
+  .then(data => {
+    const profitYear = data;
+    //Tidak perlu ekstrak tahun,karena tidak akan di gunakan.
+    // const Year = profitYear.map(item => item.Year);
+
+    const Profit_per_year = profitYear.map(item => {
+      return parseFloat(item.Profit_per_year);
+    });
+
+    // Perbaikan perhitungan total
+    const total = Profit_per_year.reduce((acc, profit) => acc + profit, 0); 
+    console.log(`Total Profit: ${total.toFixed(2)}`);  // Format pesan log
+
+    // Menampilkan total profit
+    totalProfit.textContent = `$${total.toFixed(2)}`;
+  })
+  .catch(error => {
+    console.error("Error fetching or processing data:", error);
+    totalProfit.textContent = "Error loading data.";
+  });
+
+  </script>
+  
+  <script>
+    const totalSales = document.getElementById("total-sales");
+
+fetch("json/totalsales.json")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Validasi data (masih diperlukan untuk memastikan format yang benar)
+    if (!Array.isArray(data) || !data.length || !data[0].total_sales) {
+      throw new Error("Format data tidak valid");
+    }
+
+    const totalPenjualan = parseFloat(data[0].total_sales);
+
+    // Gunakan format yang Anda inginkan
+    totalSales.textContent = `$${totalPenjualan.toFixed(2)}`;
+  })
+  .catch(error => {
+    console.error("Error fetching or processing data:", error);
+    totalSales.textContent = "Error loading data.";
+  });
+  </script>
+  <script>
+    const totalQuantity = document.getElementById("total-quantity");
+const bestState = document.getElementById("best-state");
+
+// Mengambil dan menampilkan total_quantity
+fetch("json/totalquantity.json")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Validasi data untuk memastikan format yang sesuai
+    if (Array.isArray(data) && data.length > 0 && data[0].total_quantity) {
+      const quantityTotal = parseFloat(data[0].total_quantity);
+      totalQuantity.textContent = `$${quantityTotal.toFixed(2)}`; // Menampilkan angka tanpa simbol '$'
+    } else {
+      console.error("Format data totalquantity.json tidak valid.");
+      totalQuantity.textContent = "Error loading data.";
+    }
+  })
+  .catch(error => {
+    console.error("Error fetching or processing total quantity data:", error);
+    totalQuantity.textContent = "Error loading data.";
+  });
+
+// Mengambil dan menampilkan State dengan penjualan terbaik (best-state)
+fetch("json/pangsapasarperstate.json")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Validasi data untuk memastikan format yang sesuai
+    if (Array.isArray(data) && data.length > 0 && data[0].State) {
+      const stateBest = data[0].State; 
+      bestState.textContent = stateBest;
+    } else {
+      console.error("Format data pangsapasarperstate.json tidak valid.");
+      bestState.textContent = "Error loading data.";
+    }
+  })
+  .catch(error => {
+    console.error("Error fetching or processing best state data:", error);
+    bestState.textContent = "Error loading data.";
+  });
+
+  </script>
+</html>

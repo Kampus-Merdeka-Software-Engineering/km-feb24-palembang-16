@@ -39,6 +39,12 @@
               </a>
             </li>
             <li>
+              <a href="dashboard.html" class="nav-link text-dark">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
+                Dashboar
+              </a>
+            </li>
+            <li>
               <a href="products.html" class="nav-link active" aria-current="page">
                 <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid" /></svg>
                 Products
@@ -184,7 +190,7 @@
   </script>
   <script>
     var xmlhttp = new XMLHttpRequest();
-    var url = "/WEB/Superstore_last/Ajax/VolumeSalesproduct.json";
+    var url = "Ajax/VolumeSalesproduct.json";
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){
@@ -248,7 +254,7 @@
   </script>
   <script>
     var xmlhttp = new XMLHttpRequest();
-    var url = "/WEB/Superstore_last/Ajax/KeuntunganRendahProduct.json";
+    var url = "Ajax/KeuntunganRendahProduct.json";
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){
@@ -339,7 +345,7 @@
   </script>
   <script>
     var xmlhttp = new XMLHttpRequest();
-    var url = "/WEB/Superstore_last/Ajax/ProfitabilitasperProduct.json";
+    var url = "Ajax/ProfitabilitasperProduct.json";
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){
